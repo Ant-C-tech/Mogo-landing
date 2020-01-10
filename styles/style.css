@@ -1870,7 +1870,6 @@ p {
     position: absolute;
     top: calc( (100% - 125px) / 2);
     left: calc( (100% - 167px) / 2);
-    /* Вариант установки по центру: left:0;  transform: translate3d(0, -50%, 0); */
     opacity: 0;
     -webkit-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
@@ -2380,22 +2379,18 @@ p {
 }
 
 .footer__input::-webkit-input-placeholder {
-    /*сохраняем цвет текста макета но при вводе он меняется на черный*/
     color: #cccccc;
 }
 
 .footer__input:-ms-input-placeholder {
-    /*сохраняем цвет текста макета но при вводе он меняется на черный*/
     color: #cccccc;
 }
 
 .footer__input::-ms-input-placeholder {
-    /*сохраняем цвет текста макета но при вводе он меняется на черный*/
     color: #cccccc;
 }
 
 .footer__input::placeholder {
-    /*сохраняем цвет текста макета но при вводе он меняется на черный*/
     color: #cccccc;
 }
 
@@ -2409,7 +2404,6 @@ p {
 
 .footer__btn {
     font-family: 'Montserrat', sans-serif;
-    /*Для кнопок и инпут-полей шрифт необходимо прописывать отдельно для кроссбраузерности*/
     font-size: 15px;
     color: white;
     font-weight: bold;
