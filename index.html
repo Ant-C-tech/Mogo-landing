@@ -1,0 +1,1395 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MoGo</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/flexslider.css">
+
+    
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+    <script src="js/jquery-easing.js"></script>
+    <script src="js/jquery.flexslider.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
+    <script src="js/script.js"></script>
+</head>
+
+<body>
+
+    <!--INTRO-->
+
+    <div id="intro" class="intro">
+        <div class="intro__background kenburns-top"></div>
+        <div class="container">
+            <div id="intro__innerContainer" class="intro__innerContainer">
+                <h2 class="intro__suptitle">Creative Template</h2>
+                <h1 class="intro__title">Welcome to MoGo</h1>
+                <a rel="m_PageScroll2id" class="intro__btn" target="_blank" href="#footer">Learn more</a>
+            </div>
+        </div>
+    </div>
+
+    <!--HEADER-->
+
+    <header class="header">
+        <div class="container">
+            <div class="header__innerContainer">
+                <div class="header__logo">
+                    <h1 class="header__logoTitle tracking-in-contract-bck">MoGo</h1>
+                </div>
+                <nav id="nav" class="nav">
+                    <div class="nav__menuToggle rotate-scale-down-hor">
+                        <svg class="nav__menuIcon" x="0px" y="0px" width="40" height="40" viewBox="0 0 600 600">
+                            <g>
+                                <g>
+                                    <path d="M53.333,106.667H416c29.417,0,53.333-23.927,53.333-53.333S445.417,0,416,0H53.333C23.917,0,0,23.927,0,53.333
+				S23.917,106.667,53.333,106.667z" fill="white" />
+                                    <path d="M416,181.333H53.333C23.917,181.333,0,205.26,0,234.667S23.917,288,53.333,288H416c29.417,0,53.333-23.927,53.333-53.333
+				S445.417,181.333,416,181.333z" fill="white" />
+                                    <path d="M416,362.667H53.333C23.917,362.667,0,386.594,0,416s23.917,53.333,53.333,53.333H416
+				c29.417,0,53.333-23.927,53.333-53.333S445.417,362.667,416,362.667z" fill="white" />
+                                </g>
+                            </g>
+                        </svg>
+                        <p class="nav__menuText"> Menu</p>
+                    </div>
+                    <div id="nav__menu" class="nav__menu">
+                        <a rel="m_PageScroll2id" class="nav__menuLink" href="#aboutUs">About</a>
+                        <a rel="m_PageScroll2id" class="nav__menuLink" href="#services">Service</a>
+                        <a rel="m_PageScroll2id" class="nav__menuLink" href="#ourWorks">Work</a>
+                        <a rel="m_PageScroll2id" class="nav__menuLink" href="#blog">Blog</a>
+                        <a rel="m_PageScroll2id" class="nav__menuLink" href="#footer">Contact</a>
+                        <a rel="m_PageScroll2id" class="nav__menuLink" href="#footer">
+                            <svg width="17.6" height="14.025" viewBox="0 0 17.6 14.025">
+                                <path id="SHOPPING_CART" data-name="SHOPPING CART"
+                                    d="M1501.726,40.663h0l-2.475,5.5h0a.824.824,0,0,1-.7.485h0l-7.128.475.412,1.177h7.761a1.65,1.65,0,1,1-1.65,1.651h-7.7a1.65,1.65,0,1,1-1.65-1.651h1.491l-3.176-9.075h-1.89a.825.825,0,1,1,0-1.65h2.475a.822.822,0,0,1,.776.554h0l.48,1.373h12.216a.822.822,0,0,1,.751,1.163Zm-12.389.487,1.525,4.357,7.089-.473,1.748-3.884Z"
+                                    transform="translate(-1484.2 -37.575)" fill="#fff" />
+                            </svg>
+                        </a>
+                        <a class="nav__menuLink" target="_blank" href="https://www.google.com.ua/?hl=en">
+                            <svg width="17.6" height="17.6" viewBox="0 0 17.6 17.6">
+                                <path id="MAGNIFYING_GLASS" data-name="MAGNIFYING GLASS"
+                                    d="M1561.317,50.983a1.65,1.65,0,0,1-2.334,2.334h0l-4.836-4.836a6.616,6.616,0,1,1,2.333-2.333l4.836,4.836ZM1550.8,37.849a4.95,4.95,0,1,0,4.95,4.95A4.95,4.95,0,0,0,1550.8,37.849Z"
+                                    transform="translate(-1544.2 -36.2)" fill="#fff" />
+                            </svg>
+                        </a>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!--MAIN MENU SLIDER-->
+
+    <div id="mainmenuSlider" class="mainmenuSlider">
+        <div class="container">
+            <div id="mainmenuSlider__wrapper" class="mainmenuSlider__wrapper">
+                <div id="mainmenuSlider__item_startPage" class="mainmenuSlider__item">
+                    <a rel="m_PageScroll2id" class="tracking-in-contract-bck" href="#intro">
+                        <span class="mainmenuSlider__number">01</span>
+                        <span class="mainmenuSlider__title"> Intro</span>
+                    </a>
+                </div>
+                <div id="mainmenuSlider__item_aboutUs" class="mainmenuSlider__item">
+                    <a rel="m_PageScroll2id" class="tracking-in-contract-bck" href="#aboutUs">
+                        <span class="mainmenuSlider__number">02</span>
+                        <span class="mainmenuSlider__title"> About</span>
+                    </a>
+                </div>
+                <div id="mainmenuSlider__item_works" class="mainmenuSlider__item">
+                    <a rel="m_PageScroll2id" class="tracking-in-contract-bck" href="#ourWorks">
+                        <span class="mainmenuSlider__number">03</span>
+                        <span class="mainmenuSlider__title"> Work</span>
+                    </a>
+                </div>
+                <div id="mainmenuSlider__item_contacts" class="mainmenuSlider__item">
+                    <a rel="m_PageScroll2id" class="tracking-in-contract-bck" href="#footer">
+                        <span class="mainmenuSlider__number">04</span>
+                        <span class="mainmenuSlider__title"> Contacts</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script>
+            (function($){
+                $(window).on("load",function(){
+                    $("a[rel='m_PageScroll2id']").mPageScroll2id();
+                });
+            })(jQuery);
+        </script>
+    </div>
+
+
+    <!--ABOUT US-->
+
+    <section id="aboutUs" class="section">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">What we do</h3>
+                <h2 class="section__title">Story about us</h2>
+                <div class="redLine"></div>
+                <div class="section__description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="imageSection">
+                <div class="imageSection__item">
+                    <a target="_blank" href="https://www.pinterest.com/">
+                        <div class="imageSection__container">
+                            <img class="imageSection__image" src="img/about/pic1.png" alt="#">
+                            <div class="aboutUs__title">
+                                <div class="aboutUs__titleIcon">
+                                    <svg width="31.951" height="22.522" viewBox="0 0 31.951 22.522">
+                                        <path
+                                            d="M555.95,1505.5a.01.01,0,0,0,0,0,.993.993,0,0,1-.995.992h-7.412a1.236,1.236,0,0,0,.971-1.205s0,0,0,0h0s0-4.5-3.3-6.142a5.949,5.949,0,0,0-2.205-.732l.019-1.95a3.663,3.663,0,0,1-1.01-2.431c-.482.139-.642-.564-.67-1.012-.026-.431-.279-1.783.309-1.66a11.908,11.908,0,0,1-.164-2.147,3.893,3.893,0,0,1,3.861-3.208c2.649.114,3.7,1.694,3.845,3.207a12,12,0,0,1-.172,2.146c.589-.12.333,1.228.3,1.661-.026.448-.189,1.149-.67,1.01a3.643,3.643,0,0,1-1.011,2.426l.018,1.948s.487.278,2.545,1.127,1.412.215,3.089,1.045c2.649,1.314,2.649,4.927,2.649,4.927Zm-14.927-6.663c2.262.935,1.552.235,3.4,1.149,2.912,1.444,2.912,5.416,2.912,5.416h0a.008.008,0,0,1,0,0,1.092,1.092,0,0,1-1.094,1.09H525.094a1.092,1.092,0,0,1-1.094-1.09.014.014,0,0,1,0,0h0s0-3.972,2.912-5.417c1.842-.913,1.133-.172,3.395-1.106a25.938,25.938,0,0,0,2.8-1.26l.021-2.152a4.025,4.025,0,0,1-1.11-2.67c-.53.153-.705-.621-.736-1.113-.028-.474-.307-1.96.34-1.825a13.081,13.081,0,0,1-.181-2.359,4.281,4.281,0,0,1,4.244-3.528c2.911.126,4.065,1.863,4.226,3.525a13.185,13.185,0,0,1-.189,2.359c.647-.132.366,1.349.334,1.825-.029.492-.208,1.262-.736,1.11a4,4,0,0,1-1.111,2.666l.02,2.142S538.761,1497.906,541.023,1498.84Z"
+                                            transform="translate(-523.999 -1483.975)" fill="#fff" />
+                                    </svg>
+                                </div>
+                                <div class="aboutUs__titleText">
+                                    <p>super team</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="imageSection__item">
+                    <a target="_blank" href="https://www.pinterest.com/">
+                        <div class="imageSection__container">
+                            <img class="imageSection__image" src="img/about/pic2.png" alt="#">
+                            <div class="aboutUs__title">
+                                <div class="aboutUs__titleIcon">
+                                    <svg width="31.951" height="22.522" viewBox="0 0 31.951 22.522">
+                                        <path
+                                            d="M555.95,1505.5a.01.01,0,0,0,0,0,.993.993,0,0,1-.995.992h-7.412a1.236,1.236,0,0,0,.971-1.205s0,0,0,0h0s0-4.5-3.3-6.142a5.949,5.949,0,0,0-2.205-.732l.019-1.95a3.663,3.663,0,0,1-1.01-2.431c-.482.139-.642-.564-.67-1.012-.026-.431-.279-1.783.309-1.66a11.908,11.908,0,0,1-.164-2.147,3.893,3.893,0,0,1,3.861-3.208c2.649.114,3.7,1.694,3.845,3.207a12,12,0,0,1-.172,2.146c.589-.12.333,1.228.3,1.661-.026.448-.189,1.149-.67,1.01a3.643,3.643,0,0,1-1.011,2.426l.018,1.948s.487.278,2.545,1.127,1.412.215,3.089,1.045c2.649,1.314,2.649,4.927,2.649,4.927Zm-14.927-6.663c2.262.935,1.552.235,3.4,1.149,2.912,1.444,2.912,5.416,2.912,5.416h0a.008.008,0,0,1,0,0,1.092,1.092,0,0,1-1.094,1.09H525.094a1.092,1.092,0,0,1-1.094-1.09.014.014,0,0,1,0,0h0s0-3.972,2.912-5.417c1.842-.913,1.133-.172,3.395-1.106a25.938,25.938,0,0,0,2.8-1.26l.021-2.152a4.025,4.025,0,0,1-1.11-2.67c-.53.153-.705-.621-.736-1.113-.028-.474-.307-1.96.34-1.825a13.081,13.081,0,0,1-.181-2.359,4.281,4.281,0,0,1,4.244-3.528c2.911.126,4.065,1.863,4.226,3.525a13.185,13.185,0,0,1-.189,2.359c.647-.132.366,1.349.334,1.825-.029.492-.208,1.262-.736,1.11a4,4,0,0,1-1.111,2.666l.02,2.142S538.761,1497.906,541.023,1498.84Z"
+                                            transform="translate(-523.999 -1483.975)" fill="#fff" />
+                                    </svg>
+                                </div>
+                                <div class="aboutUs__titleText">
+                                    <p>super team</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="imageSection__item">
+                    <a target="_blank" href="https://www.pinterest.com/">
+                        <div class="imageSection__container">
+                            <img class="imageSection__image" src="img/about/pic3.png" alt="#">
+                            <div class="aboutUs__title">
+                                <div class="aboutUs__titleIcon">
+                                    <svg width="31.951" height="22.522" viewBox="0 0 31.951 22.522">
+                                        <path
+                                            d="M555.95,1505.5a.01.01,0,0,0,0,0,.993.993,0,0,1-.995.992h-7.412a1.236,1.236,0,0,0,.971-1.205s0,0,0,0h0s0-4.5-3.3-6.142a5.949,5.949,0,0,0-2.205-.732l.019-1.95a3.663,3.663,0,0,1-1.01-2.431c-.482.139-.642-.564-.67-1.012-.026-.431-.279-1.783.309-1.66a11.908,11.908,0,0,1-.164-2.147,3.893,3.893,0,0,1,3.861-3.208c2.649.114,3.7,1.694,3.845,3.207a12,12,0,0,1-.172,2.146c.589-.12.333,1.228.3,1.661-.026.448-.189,1.149-.67,1.01a3.643,3.643,0,0,1-1.011,2.426l.018,1.948s.487.278,2.545,1.127,1.412.215,3.089,1.045c2.649,1.314,2.649,4.927,2.649,4.927Zm-14.927-6.663c2.262.935,1.552.235,3.4,1.149,2.912,1.444,2.912,5.416,2.912,5.416h0a.008.008,0,0,1,0,0,1.092,1.092,0,0,1-1.094,1.09H525.094a1.092,1.092,0,0,1-1.094-1.09.014.014,0,0,1,0,0h0s0-3.972,2.912-5.417c1.842-.913,1.133-.172,3.395-1.106a25.938,25.938,0,0,0,2.8-1.26l.021-2.152a4.025,4.025,0,0,1-1.11-2.67c-.53.153-.705-.621-.736-1.113-.028-.474-.307-1.96.34-1.825a13.081,13.081,0,0,1-.181-2.359,4.281,4.281,0,0,1,4.244-3.528c2.911.126,4.065,1.863,4.226,3.525a13.185,13.185,0,0,1-.189,2.359c.647-.132.366,1.349.334,1.825-.029.492-.208,1.262-.736,1.11a4,4,0,0,1-1.111,2.666l.02,2.142S538.761,1497.906,541.023,1498.84Z"
+                                            transform="translate(-523.999 -1483.975)" fill="#fff" />
+                                    </svg>
+                                </div>
+                                <div class="aboutUs__titleText">
+                                    <p>super team</p>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--STATISTIC-->
+
+    <div class="statistic" id="statistic">
+        <div class="container">
+            <div class="statistic__containerInner">
+                <div class="statistic__item">
+                    <p class="statistic__number text-flicker-in-glow">42</p>
+                    <p class="statistic__text"><span class="statistic__text_adaptive">Web Design </span>Projects</p>
+                </div>
+                <div class="statistic__item">
+                    <p class="statistic__number text-flicker-in-glow">123</p>
+                    <p class="statistic__text"><span class="statistic__text_adaptive">happy </span>client</p>
+                </div>
+                <div class="statistic__item">
+                    <p class="statistic__number text-flicker-in-glow">15</p>
+                    <p class="statistic__text">award <span class="statistic__text_adaptive">winner</span></p>
+                </div>
+                <div class="statistic__item">
+                    <p class="statistic__number text-flicker-in-glow">99</p>
+                    <p class="statistic__text"><span class="statistic__text_adaptive">cup of </span>coffee</p>
+                </div>
+                <div class="statistic__item">
+                    <p class="statistic__number text-flicker-in-glow">24</p>
+                    <p class="statistic__text">members</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--SERVICES-->
+
+    <section id="services" class="section section__services_mobile">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">We work with</h3>
+                <h2 class="section__title">Amazing Services</h2>
+                <div class="redLine"></div>
+            </div>
+            <div class="services">
+                <div class="services__item">
+                    <img class="services__icon" src="img/services/ico1.jpg" alt="#">
+                    <div class="item-text">
+                        <h3 class="services__title">Photography</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse
+                            perferendis nihil illo.</p>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="img/services/ico2.jpg" alt="#">
+                    <div class="item-text">
+                        <h3 class="services__title">Web Design</h3>
+                        <p class="services__description">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            Culpa, quaerat maxime?</p>
+                    </div>
+                </div>
+
+                <div class="services__boarderPair"></div>
+
+                <div class="services__item">
+                    <img class="services__icon" src="img/services/ico3.jpg" alt="#">
+                    <div class="item-text">
+                        <h3 class="services__title">Creativity</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Minus, commodi?</p>
+                    </div>
+                </div>
+
+                <div class="services__boarderHalf"></div>
+
+                <div class="services__item">
+                    <img class="services__icon" src="img/services/ico4.jpg" alt="#">
+                    <div class="item-text">
+                        <h3 class="services__title">seo</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Beatae, doloremque!</p>
+                    </div>
+                </div>
+
+                <div class="services__boarderPair"></div>
+
+                <div class="services__item">
+                    <img class="services__icon" src="img/services/ico5.jpg" alt="#">
+                    <div class="item-text">
+                        <h3 class="services__title">Css/Html</h3>
+                        <p class="services__description">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                            Repellat, suscipit!</p>
+                    </div>
+                </div>
+                <div class="services__item">
+                    <img class="services__icon" src="img/services/ico6.jpg" alt="#">
+                    <div class="item-text">
+                        <h3 class="services__title">digital</h3>
+                        <p class="services__description">Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                            Culpa!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--UNIQUE DESIGN-->
+
+    <section class="section">
+        <div class="uniqueDesign">
+            <div class="uniqueDesign__backgroundWrapper">
+                <div class="uniqueDesign__background kenburns-top"></div>
+            </div>
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">For all devices</h3>
+                    <h2 class="section__title">Unique design</h2>
+                    <div class="redLine"></div>
+                </div>
+                <div class="uniqueDesign__deviceContainer">
+                    <div class="uniqueDesign__tabletContainer">
+                        <img class="uniqueDesign__tablet" src="./img/unique_design/ipadXD.png" alt="#">
+                    </div>
+                    <div class="uniqueDesign__phoneContainer">
+                        <img class="uniqueDesign__phone" src="./img/unique_design/iphone.png" alt="#">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--WHAT WE DO-->
+
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Service</h3>
+                <h2 class="section__title">what we do</h2>
+                <div class="redLine"></div>
+                <div class="section__description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
+                        laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="whatWedo">
+                <div class="whatWedo__imgContainer">
+                    <img class="whatWedo__img" src="img/wwd/wwd-pic.png" alt="#">
+                </div>
+                <div class="burgerBlock">
+                    <div class="burgerBlock__item">
+                        <label class="burgerBlock__btnLabel" for="burgerBlock__btnInput1"></label>
+                        <input id="burgerBlock__btnInput1" class="burgerBlock__btnInput" type="checkbox" name="#">
+                        <ul class="burgerBlock__mainList">
+                            <li class="burgerBlock__mainListitem">
+                                <div class="burgerBlock__itemHeader">
+                                    <div class="burgerBlock__itemHeader_container">
+                                        <img class="burgerBlock__itemIcon" src="img/wwd/ico/ico1.jpg" alt="#">
+                                        <h3 class="burgerBlock__itemTitle">Photography</h3>
+                                    </div>
+                                    <div class="burgerBlock__btn"></div>
+                                </div>
+                                <ul class="burgerBlock__itemBody">
+                                    <li class="burgerBlock__itemBodylist">
+                                        <div class="burgerBlock__textConteiner">
+                                            <p class="burgerBlock__text">Lorem ipsum dolor sit amet consectetur,
+                                                adipisicing
+                                                elit. Porro
+                                                excepturi, cumque
+                                                perferendis ratione dolorum sed minus eos inventore molestias nam
+                                                doloremque
+                                                aliquam
+                                                voluptate cum possimus quidem praesentium ipsum! Impedit, optio
+                                                eligendi?
+                                                Doloremque,
+                                                similique. Accusantium, reprehenderit magnam reiciendis culpa omnis
+                                                quibusdam
+                                                incidunt a
+                                                soluta repellendus amet officia nam, quos, optio nihil. Lorem ipsum
+                                                dolor sit
+                                                amet
+                                                consectetur, adipisicing elit. Porro excepturi, cumque
+                                                perferendis ratione dolorum sed minus eos inventore molestias nam
+                                                doloremque
+                                                aliquam
+                                                voluptate cum possimus quidem praesentium ipsum! Impedit, optio
+                                                eligendi?
+                                                Doloremque,
+                                                similique. Accusantium, reprehenderit magnam reiciendis culpa omnis
+                                                quibusdam
+                                                incidunt a
+                                                soluta repellendus amet officia nam, quos, optio nihil.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="burgerBlock__item">
+                        <label class="burgerBlock__btnLabel" for="burgerBlock__btnInput2"></label>
+                        <input id="burgerBlock__btnInput2" class="burgerBlock__btnInput" type="checkbox" name="#">
+                        <ul class="burgerBlock__mainList">
+                            <li class="burgerBlock__mainListitem">
+                                <div class="burgerBlock__itemHeader">
+                                    <div class="burgerBlock__itemHeader_container">
+                                        <img class="burgerBlock__itemIcon" src="img/wwd/ico/ico2.jpg" alt="#">
+                                        <h3 class="burgerBlock__itemTitle">creativity</h3>
+                                    </div>
+                                    <div class="burgerBlock__btn"></div>
+                                </div>
+                                <ul class="burgerBlock__itemBody">
+                                    <li class="burgerBlock__itemBodylist">
+                                        <div class="burgerBlock__textConteiner">
+                                            <p class="burgerBlock__text">Lorem ipsum dolor sit amet consectetur,
+                                                adipisicing
+                                                elit. Porro
+                                                excepturi, cumque
+                                                perferendis ratione dolorum sed minus eos inventore molestias nam
+                                                doloremque aliquam
+                                                voluptate cum possimus quidem praesentium ipsum! Impedit, optio
+                                                eligendi? Doloremque,
+                                                similique. Accusantium, reprehenderit magnam reiciendis culpa omnis
+                                                quibusdam incidunt a
+                                                soluta repellendus amet officia nam, quos, optio nihil. Lorem ipsum
+                                                dolor sit amet
+                                                consectetur, adipisicing elit. Porro excepturi, cumque
+                                                perferendis ratione dolorum sed minus eos inventore molestias nam
+                                                doloremque aliquam
+                                                voluptate cum possimus quidem praesentium ipsum! Impedit, optio
+                                                eligendi? Doloremque,
+                                                similique. Accusantium, reprehenderit magnam reiciendis culpa omnis
+                                                quibusdam incidunt a
+                                                soluta repellendus amet officia nam, quos, optio nihil.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="burgerBlock__item">
+                        <label class="burgerBlock__btnLabel" for="burgerBlock__btnInput3"></label>
+                        <input id="burgerBlock__btnInput3" class="burgerBlock__btnInput" type="checkbox" name="#">
+                        <ul class="burgerBlock__mainList">
+                            <li class="burgerBlock__mainListitem">
+                                <div class="burgerBlock__itemHeader">
+                                    <div class="burgerBlock__itemHeader_container">
+                                        <img class="burgerBlock__itemIcon" src="img/wwd/ico/ico3.jpg" alt="#">
+                                        <h3 class="burgerBlock__itemTitle">web design</h3>
+                                    </div>
+                                    <div class="burgerBlock__btn"></div>
+                                </div>
+                                <ul class="burgerBlock__itemBody">
+                                    <li class="burgerBlock__itemBodylist">
+                                        <div class="burgerBlock__textConteiner">
+                                            <p class="burgerBlock__text">Lorem ipsum dolor sit amet consectetur,
+                                                adipisicing
+                                                elit. Porro
+                                                excepturi, cumque
+                                                perferendis ratione dolorum sed minus eos inventore molestias nam
+                                                doloremque aliquam
+                                                voluptate cum possimus quidem praesentium ipsum! Impedit, optio
+                                                eligendi? Doloremque,
+                                                similique. Accusantium, reprehenderit magnam reiciendis culpa omnis
+                                                quibusdam incidunt a
+                                                soluta repellendus amet officia nam, quos, optio nihil. Lorem ipsum
+                                                dolor sit amet
+                                                consectetur, adipisicing elit. Porro excepturi, cumque
+                                                perferendis ratione dolorum sed minus eos inventore molestias nam
+                                                doloremque aliquam
+                                                voluptate cum possimus quidem praesentium ipsum! Impedit, optio
+                                                eligendi? Doloremque,
+                                                similique. Accusantium, reprehenderit magnam reiciendis culpa omnis
+                                                quibusdam incidunt a
+                                                soluta repellendus amet officia nam, quos, optio nihil.</p>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--REVIEWS SLIDER-->
+
+    <div class="wrapper">
+        <div class="reviewsSlider">
+            <div class="container">
+                <div class="flexslider flexslider__one" id="flexslider__one" style="direction:ltr">
+                    <ul class="slides">
+                        <li class="slider__item">
+                            <div class="slider__itemContainer">
+                                <div class="slider__itemIcon">
+                                    <img class="slider__icon" src="img/slider/ico1.png" alt="#">
+                                </div>
+                                <div class="slider__itemBody">
+                                    <div class="slider__textSection">
+                                        <p class="slider__text">"Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit. Alias
+                                            temporibus
+                                            officiis
+                                            similique,
+                                            ab odio consequuntur. Reiciendis sit dolorem ratione ipsum excepturi quo
+                                            illum."</p>
+                                    </div>
+                                    <div class="slider__autorSection">
+                                        <div class="redLine"></div>
+                                        <p class="slider__autorName">Jon Doe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <div class="slider__itemContainer">
+                                <div class="slider__itemIcon">
+                                    <img class="slider__icon" src="img/slider/ico1.png" alt="#">
+                                </div>
+                                <div class="slider__itemBody">
+                                    <div class="slider__textSection">
+                                        <p class="slider__text">"Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit.</p>
+                                    </div>
+                                    <div class="slider__autorSection">
+                                        <div class="redLine"></div>
+                                        <p class="slider__autorName">Jon Doe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <div class="slider__itemContainer">
+                                <div class="slider__itemIcon">
+                                    <img class="slider__icon" src="img/slider/ico1.png" alt="#">
+                                </div>
+                                <div class="slider__itemBody">
+                                    <div class="slider__textSection">
+                                        <p class="slider__text">"Lorem ipsum dolor sit amet consectetur
+                                            adipisicing elit. Alias
+                                            temporibus
+                                            officiis
+                                            similique,
+                                            ab odio consequuntur. Reiciendis sit dolorem ratione ipsum excepturi quo
+                                            illum
+                                            officiis
+                                            reprehenderit dolore delectus?"</p>
+                                    </div>
+                                    <div class="slider__autorSection">
+                                        <div class="redLine"></div>
+                                        <p class="slider__autorName">Jon Doe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--OUR TEAM-->
+
+    <section class="section">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Who we are</h3>
+                <h2 class="section__title">MEET OUR TEAM</h2>
+                <div class="redLine"></div>
+                <div class="section__description">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+                        ut
+                        aliquip ex ea commodo consequat.
+                    </p>
+                </div>
+            </div>
+            <div class="imageSection">
+                <div class="imageSection__item">
+                    <div class="imageSection__container">
+                        <img class="imageSection__image" src="img/our_team/1/Rectangle_14.png" alt="#">
+                        <div class="ourTeam__linkList">
+                            <a class="ourTeam__link" target="_blank" href="https://www.facebook.com/">
+                                <svg class="ourTeam__linkIcon" width="11.25" height="24.009" viewBox="0 0 7.505 16.006">
+                                    <path id="facebook"
+                                        d="M454.993,9776.015v2.575s-1.9-.188-2.374.538a7.322,7.322,0,0,0-.129,2.4h2.518c-.213.978-.365,1.64-.522,2.486h-2.01v8h-3.489c0-2.467,0-5.345,0-7.971H447.5v-2.518h1.468c.075-1.842.1-3.666,1.018-4.594C451.018,9775.889,452,9776.015,454.993,9776.015Z"
+                                        transform="translate(-447.504 -9776.01)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://twitter.com/">
+                                <svg class="ourTeam__linkIcon" width="24" height="19.48" viewBox="0 0 16 12.987">
+                                    <path id="twitter"
+                                        d="M483.883,9777.516a3.375,3.375,0,0,1,2.595,1.03,5.325,5.325,0,0,0,1.682-.567l.408-.224a3.28,3.28,0,0,1-1.065,1.541,1.562,1.562,0,0,1-.36.256v.008a6.156,6.156,0,0,0,1.858-.5v.008a5.286,5.286,0,0,1-1.113,1.277l-.513.407a9.4,9.4,0,0,1-.152,2.107,9.176,9.176,0,0,1-6.43,7.258,9.815,9.815,0,0,1-4.645.191,11.972,11.972,0,0,1-1.93-.63,7.792,7.792,0,0,1-.929-.479l-.288-.176a5.352,5.352,0,0,0,1.049.04c.323-.052.639-.038.937-.1a6.706,6.706,0,0,0,1.97-.711,3.66,3.66,0,0,0,.889-.582,2.8,2.8,0,0,1-.977-.176,3.3,3.3,0,0,1-2.082-2.1c.322.035,1.249.119,1.466-.063a2.4,2.4,0,0,1-1.073-.432,3.158,3.158,0,0,1-1.546-2.811l.336.16a3.637,3.637,0,0,0,.689.192,1,1,0,0,0,.448.039h-.016c-.165-.192-.435-.32-.6-.526a3.355,3.355,0,0,1-.737-2.979,3.84,3.84,0,0,1,.352-.854l.016.009a2.019,2.019,0,0,0,.3.343,6,6,0,0,0,.977.934,9.671,9.671,0,0,0,4.012,1.941,6.327,6.327,0,0,0,1.473.19,3.047,3.047,0,0,1,.016-1.54,3.235,3.235,0,0,1,1.858-2.2,3.957,3.957,0,0,1,.729-.224Z"
+                                        transform="translate(-473 -9777.515)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://www.pinterest.com/">
+                                <svg class="ourTeam__linkIcon" width="18.369" height="24.05"
+                                    viewBox="0 0 12.246 16.036">
+                                    <path id="pinterest"
+                                        d="M539.844,9786.424c-.131.521-.262,1.066-.4,1.6a12.228,12.228,0,0,1-.448,1.543,7.906,7.906,0,0,1-1.277,2.2c-.359.417-.283.25-.391.228-.083-.017-.09-.1-.106-.215a12.043,12.043,0,0,1,0-2.087,11.278,11.278,0,0,1,.368-2.17c.3-1.29.592-2.554.9-3.852.02-.087.075-.229.056-.278a4.014,4.014,0,0,1-.268-1.062,3.383,3.383,0,0,1,.087-1.215,2,2,0,0,1,1.184-1.461,1.352,1.352,0,0,1,1.084.082,1.179,1.179,0,0,1,.542.777,2.806,2.806,0,0,1-.05,1.183c-.167.762-.386,1.334-.586,2.068a2.276,2.276,0,0,0-.118,1.133,1.315,1.315,0,0,0,.53.8,1.546,1.546,0,0,0,1.015.285,2.221,2.221,0,0,0,1.657-.98,5.8,5.8,0,0,0,1.047-2.93,7.2,7.2,0,0,0,.044-1.259,3.424,3.424,0,0,0-.7-1.947,3.3,3.3,0,0,0-1.57-1.069,5.213,5.213,0,0,0-2.343-.146,4.147,4.147,0,0,0-3.071,2.208,4.422,4.422,0,0,0-.523,2.131,2.765,2.765,0,0,0,.424,1.563c.083.126.205.229.287.374.115.2-.018.507-.075.727-.069.266-.076.633-.386.64a.942.942,0,0,1-.4-.152,3.2,3.2,0,0,1-1.514-2.334,5.587,5.587,0,0,1,0-2.024,5.755,5.755,0,0,1,2.747-3.839,6.514,6.514,0,0,1,2.442-.841c.318-.047.646-.066,1-.083a6.035,6.035,0,0,1,2.7.506,5.534,5.534,0,0,1,1.863,1.341,5.075,5.075,0,0,1,1.146,2.069,4.97,4.97,0,0,1,.248,1.429,8.587,8.587,0,0,1-.192,1.48,5.832,5.832,0,0,1-2.4,4.036,4.163,4.163,0,0,1-1.1.506,4,4,0,0,1-1.4.176,2.876,2.876,0,0,1-1.24-.359A2.059,2.059,0,0,1,539.844,9786.424Z"
+                                        transform="translate(-534.749 -9776.012)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://www.instagram.com/">
+                                <svg class="ourTeam__linkIcon" width="24" height="24" viewBox="0 0 16 16">
+                                    <path id="instagram"
+                                        d="M517,9792.015H505a2,2,0,0,1-2-2v-12a2,2,0,0,1,2-2h12a2,2,0,0,1,2,2v12A2,2,0,0,1,517,9792.015Zm-6-11.1a3.1,3.1,0,0,0-2.811,1.8h0c-.005.012-.009.023-.014.034-.029.065-.055.133-.08.2-.012.032-.025.063-.036.1-.023.069-.042.141-.059.212-.009.033-.018.066-.026.1-.016.076-.027.153-.038.23,0,.031-.011.062-.014.094a3.1,3.1,0,1,0,6.163,0c0-.032-.01-.062-.014-.094-.011-.077-.022-.154-.038-.23-.007-.033-.017-.066-.026-.1-.018-.071-.037-.143-.06-.212-.011-.034-.024-.065-.036-.1-.025-.068-.051-.136-.081-.2,0-.011-.008-.022-.014-.034h0A3.1,3.1,0,0,0,511,9780.915Zm6.2-2.3a.8.8,0,0,0-.8-.8h-1.6a.8.8,0,0,0-.8.8v1.6a.8.8,0,0,0,.8.8h1.6a.8.8,0,0,0,.8-.8Zm0,4.1h-1.475a4.9,4.9,0,1,1-9.451,0H504.8v6.7a.8.8,0,0,0,.8.8h10.8a.8.8,0,0,0,.8-.8Z"
+                                        transform="translate(-503 -9776.015)" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ourTeam__container">
+                        <p class="ourTeam__memberName">Matthew Dix</p>
+                        <p class="ourTeam__memberSkill">Graphic Design</p>
+                    </div>
+                </div>
+                <div class="imageSection__item">
+                    <div class="imageSection__container">
+                        <img class="imageSection__image" src="img/our_team/2/Rectangle_14.png" alt="#">
+                        <div class="ourTeam__linkList">
+                            <a class="ourTeam__link" target="_blank" href="https://www.facebook.com/">
+                                <svg class="ourTeam__linkIcon" width="11.25" height="24.009" viewBox="0 0 7.505 16.006">
+                                    <path id="facebook"
+                                        d="M454.993,9776.015v2.575s-1.9-.188-2.374.538a7.322,7.322,0,0,0-.129,2.4h2.518c-.213.978-.365,1.64-.522,2.486h-2.01v8h-3.489c0-2.467,0-5.345,0-7.971H447.5v-2.518h1.468c.075-1.842.1-3.666,1.018-4.594C451.018,9775.889,452,9776.015,454.993,9776.015Z"
+                                        transform="translate(-447.504 -9776.01)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://twitter.com/">
+                                <svg class="ourTeam__linkIcon" width="24" height="19.48" viewBox="0 0 16 12.987">
+                                    <path id="twitter"
+                                        d="M483.883,9777.516a3.375,3.375,0,0,1,2.595,1.03,5.325,5.325,0,0,0,1.682-.567l.408-.224a3.28,3.28,0,0,1-1.065,1.541,1.562,1.562,0,0,1-.36.256v.008a6.156,6.156,0,0,0,1.858-.5v.008a5.286,5.286,0,0,1-1.113,1.277l-.513.407a9.4,9.4,0,0,1-.152,2.107,9.176,9.176,0,0,1-6.43,7.258,9.815,9.815,0,0,1-4.645.191,11.972,11.972,0,0,1-1.93-.63,7.792,7.792,0,0,1-.929-.479l-.288-.176a5.352,5.352,0,0,0,1.049.04c.323-.052.639-.038.937-.1a6.706,6.706,0,0,0,1.97-.711,3.66,3.66,0,0,0,.889-.582,2.8,2.8,0,0,1-.977-.176,3.3,3.3,0,0,1-2.082-2.1c.322.035,1.249.119,1.466-.063a2.4,2.4,0,0,1-1.073-.432,3.158,3.158,0,0,1-1.546-2.811l.336.16a3.637,3.637,0,0,0,.689.192,1,1,0,0,0,.448.039h-.016c-.165-.192-.435-.32-.6-.526a3.355,3.355,0,0,1-.737-2.979,3.84,3.84,0,0,1,.352-.854l.016.009a2.019,2.019,0,0,0,.3.343,6,6,0,0,0,.977.934,9.671,9.671,0,0,0,4.012,1.941,6.327,6.327,0,0,0,1.473.19,3.047,3.047,0,0,1,.016-1.54,3.235,3.235,0,0,1,1.858-2.2,3.957,3.957,0,0,1,.729-.224Z"
+                                        transform="translate(-473 -9777.515)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://www.pinterest.com/">
+                                <svg class="ourTeam__linkIcon" width="18.369" height="24.05"
+                                    viewBox="0 0 12.246 16.036">
+                                    <path id="pinterest"
+                                        d="M539.844,9786.424c-.131.521-.262,1.066-.4,1.6a12.228,12.228,0,0,1-.448,1.543,7.906,7.906,0,0,1-1.277,2.2c-.359.417-.283.25-.391.228-.083-.017-.09-.1-.106-.215a12.043,12.043,0,0,1,0-2.087,11.278,11.278,0,0,1,.368-2.17c.3-1.29.592-2.554.9-3.852.02-.087.075-.229.056-.278a4.014,4.014,0,0,1-.268-1.062,3.383,3.383,0,0,1,.087-1.215,2,2,0,0,1,1.184-1.461,1.352,1.352,0,0,1,1.084.082,1.179,1.179,0,0,1,.542.777,2.806,2.806,0,0,1-.05,1.183c-.167.762-.386,1.334-.586,2.068a2.276,2.276,0,0,0-.118,1.133,1.315,1.315,0,0,0,.53.8,1.546,1.546,0,0,0,1.015.285,2.221,2.221,0,0,0,1.657-.98,5.8,5.8,0,0,0,1.047-2.93,7.2,7.2,0,0,0,.044-1.259,3.424,3.424,0,0,0-.7-1.947,3.3,3.3,0,0,0-1.57-1.069,5.213,5.213,0,0,0-2.343-.146,4.147,4.147,0,0,0-3.071,2.208,4.422,4.422,0,0,0-.523,2.131,2.765,2.765,0,0,0,.424,1.563c.083.126.205.229.287.374.115.2-.018.507-.075.727-.069.266-.076.633-.386.64a.942.942,0,0,1-.4-.152,3.2,3.2,0,0,1-1.514-2.334,5.587,5.587,0,0,1,0-2.024,5.755,5.755,0,0,1,2.747-3.839,6.514,6.514,0,0,1,2.442-.841c.318-.047.646-.066,1-.083a6.035,6.035,0,0,1,2.7.506,5.534,5.534,0,0,1,1.863,1.341,5.075,5.075,0,0,1,1.146,2.069,4.97,4.97,0,0,1,.248,1.429,8.587,8.587,0,0,1-.192,1.48,5.832,5.832,0,0,1-2.4,4.036,4.163,4.163,0,0,1-1.1.506,4,4,0,0,1-1.4.176,2.876,2.876,0,0,1-1.24-.359A2.059,2.059,0,0,1,539.844,9786.424Z"
+                                        transform="translate(-534.749 -9776.012)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://www.instagram.com/">
+                                <svg class="ourTeam__linkIcon" width="24" height="24" viewBox="0 0 16 16">
+                                    <path id="instagram"
+                                        d="M517,9792.015H505a2,2,0,0,1-2-2v-12a2,2,0,0,1,2-2h12a2,2,0,0,1,2,2v12A2,2,0,0,1,517,9792.015Zm-6-11.1a3.1,3.1,0,0,0-2.811,1.8h0c-.005.012-.009.023-.014.034-.029.065-.055.133-.08.2-.012.032-.025.063-.036.1-.023.069-.042.141-.059.212-.009.033-.018.066-.026.1-.016.076-.027.153-.038.23,0,.031-.011.062-.014.094a3.1,3.1,0,1,0,6.163,0c0-.032-.01-.062-.014-.094-.011-.077-.022-.154-.038-.23-.007-.033-.017-.066-.026-.1-.018-.071-.037-.143-.06-.212-.011-.034-.024-.065-.036-.1-.025-.068-.051-.136-.081-.2,0-.011-.008-.022-.014-.034h0A3.1,3.1,0,0,0,511,9780.915Zm6.2-2.3a.8.8,0,0,0-.8-.8h-1.6a.8.8,0,0,0-.8.8v1.6a.8.8,0,0,0,.8.8h1.6a.8.8,0,0,0,.8-.8Zm0,4.1h-1.475a4.9,4.9,0,1,1-9.451,0H504.8v6.7a.8.8,0,0,0,.8.8h10.8a.8.8,0,0,0,.8-.8Z"
+                                        transform="translate(-503 -9776.015)" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ourTeam__container">
+                        <p class="ourTeam__memberName">Christopher Campbell</p>
+                        <p class="ourTeam__memberSkill">Branding/UX design</p>
+                    </div>
+                </div>
+                <div class="imageSection__item">
+                    <div class="imageSection__container">
+                        <img class="imageSection__image" src="img/our_team/3/Rectangle_14.png" alt="#">
+                        <div class="ourTeam__linkList">
+                            <a class="ourTeam__link" target="_blank" href="https://www.facebook.com/">
+                                <svg class="ourTeam__linkIcon" width="11.25" height="24.009" viewBox="0 0 7.505 16.006">
+                                    <path id="facebook"
+                                        d="M454.993,9776.015v2.575s-1.9-.188-2.374.538a7.322,7.322,0,0,0-.129,2.4h2.518c-.213.978-.365,1.64-.522,2.486h-2.01v8h-3.489c0-2.467,0-5.345,0-7.971H447.5v-2.518h1.468c.075-1.842.1-3.666,1.018-4.594C451.018,9775.889,452,9776.015,454.993,9776.015Z"
+                                        transform="translate(-447.504 -9776.01)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://twitter.com/">
+                                <svg class="ourTeam__linkIcon" width="24" height="19.48" viewBox="0 0 16 12.987">
+                                    <path id="twitter"
+                                        d="M483.883,9777.516a3.375,3.375,0,0,1,2.595,1.03,5.325,5.325,0,0,0,1.682-.567l.408-.224a3.28,3.28,0,0,1-1.065,1.541,1.562,1.562,0,0,1-.36.256v.008a6.156,6.156,0,0,0,1.858-.5v.008a5.286,5.286,0,0,1-1.113,1.277l-.513.407a9.4,9.4,0,0,1-.152,2.107,9.176,9.176,0,0,1-6.43,7.258,9.815,9.815,0,0,1-4.645.191,11.972,11.972,0,0,1-1.93-.63,7.792,7.792,0,0,1-.929-.479l-.288-.176a5.352,5.352,0,0,0,1.049.04c.323-.052.639-.038.937-.1a6.706,6.706,0,0,0,1.97-.711,3.66,3.66,0,0,0,.889-.582,2.8,2.8,0,0,1-.977-.176,3.3,3.3,0,0,1-2.082-2.1c.322.035,1.249.119,1.466-.063a2.4,2.4,0,0,1-1.073-.432,3.158,3.158,0,0,1-1.546-2.811l.336.16a3.637,3.637,0,0,0,.689.192,1,1,0,0,0,.448.039h-.016c-.165-.192-.435-.32-.6-.526a3.355,3.355,0,0,1-.737-2.979,3.84,3.84,0,0,1,.352-.854l.016.009a2.019,2.019,0,0,0,.3.343,6,6,0,0,0,.977.934,9.671,9.671,0,0,0,4.012,1.941,6.327,6.327,0,0,0,1.473.19,3.047,3.047,0,0,1,.016-1.54,3.235,3.235,0,0,1,1.858-2.2,3.957,3.957,0,0,1,.729-.224Z"
+                                        transform="translate(-473 -9777.515)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://www.pinterest.com/">
+                                <svg class="ourTeam__linkIcon" width="18.369" height="24.05"
+                                    viewBox="0 0 12.246 16.036">
+                                    <path id="pinterest"
+                                        d="M539.844,9786.424c-.131.521-.262,1.066-.4,1.6a12.228,12.228,0,0,1-.448,1.543,7.906,7.906,0,0,1-1.277,2.2c-.359.417-.283.25-.391.228-.083-.017-.09-.1-.106-.215a12.043,12.043,0,0,1,0-2.087,11.278,11.278,0,0,1,.368-2.17c.3-1.29.592-2.554.9-3.852.02-.087.075-.229.056-.278a4.014,4.014,0,0,1-.268-1.062,3.383,3.383,0,0,1,.087-1.215,2,2,0,0,1,1.184-1.461,1.352,1.352,0,0,1,1.084.082,1.179,1.179,0,0,1,.542.777,2.806,2.806,0,0,1-.05,1.183c-.167.762-.386,1.334-.586,2.068a2.276,2.276,0,0,0-.118,1.133,1.315,1.315,0,0,0,.53.8,1.546,1.546,0,0,0,1.015.285,2.221,2.221,0,0,0,1.657-.98,5.8,5.8,0,0,0,1.047-2.93,7.2,7.2,0,0,0,.044-1.259,3.424,3.424,0,0,0-.7-1.947,3.3,3.3,0,0,0-1.57-1.069,5.213,5.213,0,0,0-2.343-.146,4.147,4.147,0,0,0-3.071,2.208,4.422,4.422,0,0,0-.523,2.131,2.765,2.765,0,0,0,.424,1.563c.083.126.205.229.287.374.115.2-.018.507-.075.727-.069.266-.076.633-.386.64a.942.942,0,0,1-.4-.152,3.2,3.2,0,0,1-1.514-2.334,5.587,5.587,0,0,1,0-2.024,5.755,5.755,0,0,1,2.747-3.839,6.514,6.514,0,0,1,2.442-.841c.318-.047.646-.066,1-.083a6.035,6.035,0,0,1,2.7.506,5.534,5.534,0,0,1,1.863,1.341,5.075,5.075,0,0,1,1.146,2.069,4.97,4.97,0,0,1,.248,1.429,8.587,8.587,0,0,1-.192,1.48,5.832,5.832,0,0,1-2.4,4.036,4.163,4.163,0,0,1-1.1.506,4,4,0,0,1-1.4.176,2.876,2.876,0,0,1-1.24-.359A2.059,2.059,0,0,1,539.844,9786.424Z"
+                                        transform="translate(-534.749 -9776.012)" />
+                                </svg>
+                            </a>
+                            <a class="ourTeam__link" target="_blank" href="https://www.instagram.com/">
+                                <svg class="ourTeam__linkIcon" width="24" height="24" viewBox="0 0 16 16">
+                                    <path id="instagram"
+                                        d="M517,9792.015H505a2,2,0,0,1-2-2v-12a2,2,0,0,1,2-2h12a2,2,0,0,1,2,2v12A2,2,0,0,1,517,9792.015Zm-6-11.1a3.1,3.1,0,0,0-2.811,1.8h0c-.005.012-.009.023-.014.034-.029.065-.055.133-.08.2-.012.032-.025.063-.036.1-.023.069-.042.141-.059.212-.009.033-.018.066-.026.1-.016.076-.027.153-.038.23,0,.031-.011.062-.014.094a3.1,3.1,0,1,0,6.163,0c0-.032-.01-.062-.014-.094-.011-.077-.022-.154-.038-.23-.007-.033-.017-.066-.026-.1-.018-.071-.037-.143-.06-.212-.011-.034-.024-.065-.036-.1-.025-.068-.051-.136-.081-.2,0-.011-.008-.022-.014-.034h0A3.1,3.1,0,0,0,511,9780.915Zm6.2-2.3a.8.8,0,0,0-.8-.8h-1.6a.8.8,0,0,0-.8.8v1.6a.8.8,0,0,0,.8.8h1.6a.8.8,0,0,0,.8-.8Zm0,4.1h-1.475a4.9,4.9,0,1,1-9.451,0H504.8v6.7a.8.8,0,0,0,.8.8h10.8a.8.8,0,0,0,.8-.8Z"
+                                        transform="translate(-503 -9776.015)" />
+                                </svg>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="ourTeam__container">
+                        <p class="ourTeam__memberName">Michael Fertig</p>
+                        <p class="ourTeam__memberSkill">Developer</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--PARTNERS-->
+
+    <div class="partners">
+        <div class="container">
+            <div class="partners__container">
+                <div class="partners__item rotate-scale-down-hor"><a target="_blank" href="https://www.google.com/"><img
+                            class="partners__img" src="img/partners/pic1.png" alt=""> </a></div>
+                <div class="partners__item rotate-scale-down-hor"><a target="_blank" href="https://www.google.com/"><img
+                            class="partners__img" src="img/partners/pic2.png" alt="#"></a></div>
+                <div class="partners__item rotate-scale-down-hor"><a target="_blank" href="https://www.google.com/"><img
+                            class="partners__img" src="img/partners/pic3.png" alt="#"></a></div>
+                <div class="partners__item rotate-scale-down-hor"><a target="_blank" href="https://www.google.com/"><img
+                            class="partners__img" src="img/partners/pic4.png" alt="#"></a></div>
+                <div class="partners__item rotate-scale-down-hor"><a target="_blank" href="https://www.google.com/"><img
+                            class="partners__img" src="img/partners/pic5.png" alt="#"></a></div>
+                <div class="partners__item rotate-scale-down-hor"><a target="_blank" href="https://www.google.com/"><img
+                            class="partners__img" src="img/partners/pic6.png" alt="#"></a></div>
+            </div>
+        </div>
+    </div>
+
+    <!--OUR WORKS-->
+
+    <section id="ourWorks" class="section">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">What we do</h3>
+                <h2 class="section__title">SOME OF OUR WORK</h2>
+                <div class="redLine"></div>
+                <div class="section__description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, assumenda odit! Totam
+                        doloribus perspiciatis molestiae unde, optio ipsam nobis quibusdam perferendis officia voluptas
+                        error sunt aperiam quidem debitis? Temporibus et doloremque deserunt commodi. Nisi, beatae
+                        voluptates!
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="ourWorks">
+            <div class="ourWorks__container">
+                <div class="ourWorks__wrapper">
+                    <div class="ourWorks__workCard">
+                        <a target="_blank" href="https://www.pinterest.com/">
+                            <img class="ourWorks__img" src="img/our_works/pic1-1.png" alt="#">
+                            <div class="ourWorks__titleBlock">
+                                <svg version="1.1" x="0px" y="0px" width="55px" height="55px"
+                                    viewBox="0 0 550.801 550.8">
+                                    <g>
+                                        <path d="M515.828,61.201H34.972C15.659,61.201,0,76.859,0,96.172v358.458C0,473.942,15.659,489.6,34.972,489.6h480.856
+		c19.314,0,34.973-15.658,34.973-34.971V96.172C550.801,76.859,535.143,61.201,515.828,61.201z M515.828,96.172V350.51l-68.92-62.66
+		c-10.359-9.416-26.289-9.04-36.186,0.866l-69.752,69.741L203.438,194.179c-10.396-12.415-29.438-12.537-39.99-0.271L34.972,343.219
+		V96.172H515.828z M367.201,187.972c0-26.561,21.523-48.086,48.084-48.086c26.562,0,48.086,21.525,48.086,48.086
+        c0,26.561-21.523,48.085-48.086,48.085C388.725,236.058,367.201,214.533,367.201,187.972z" fill="white" />
+                                    </g>
+                                </svg>
+                                <p class="ourWorks__title">creatively designed</p>
+                                <p class="ourWorks__text">Lorem ipsum dolor sit.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ourWorks__workCard">
+                        <a target="_blank" href="https://www.pinterest.com/">
+                            <img class="ourWorks__img" src="img/our_works/pic1-2.png" alt="#">
+                            <div class="ourWorks__titleBlock">
+                                <svg version="1.1" x="0px" y="0px" width="55px" height="55px"
+                                    viewBox="0 0 550.801 550.8">
+                                    <g>
+                                        <path d="M515.828,61.201H34.972C15.659,61.201,0,76.859,0,96.172v358.458C0,473.942,15.659,489.6,34.972,489.6h480.856
+		c19.314,0,34.973-15.658,34.973-34.971V96.172C550.801,76.859,535.143,61.201,515.828,61.201z M515.828,96.172V350.51l-68.92-62.66
+		c-10.359-9.416-26.289-9.04-36.186,0.866l-69.752,69.741L203.438,194.179c-10.396-12.415-29.438-12.537-39.99-0.271L34.972,343.219
+		V96.172H515.828z M367.201,187.972c0-26.561,21.523-48.086,48.084-48.086c26.562,0,48.086,21.525,48.086,48.086
+        c0,26.561-21.523,48.085-48.086,48.085C388.725,236.058,367.201,214.533,367.201,187.972z" fill="white" />
+                                    </g>
+                                </svg>
+                                <p class="ourWorks__title">creatively designed</p>
+                                <p class="ourWorks__text">Lorem ipsum dolor sit.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="ourWorks__wrapper">
+                    <div class="ourWorks__workCard">
+                        <a target="_blank" href="https://www.pinterest.com/">
+                            <img class="ourWorks__img" src="img/our_works/pic2-1.png" alt="#">
+                            <div class="ourWorks__titleBlock">
+                                <svg version="1.1" x="0px" y="0px" width="55px" height="55px"
+                                    viewBox="0 0 550.801 550.8">
+                                    <g>
+                                        <path d="M515.828,61.201H34.972C15.659,61.201,0,76.859,0,96.172v358.458C0,473.942,15.659,489.6,34.972,489.6h480.856
+		c19.314,0,34.973-15.658,34.973-34.971V96.172C550.801,76.859,535.143,61.201,515.828,61.201z M515.828,96.172V350.51l-68.92-62.66
+		c-10.359-9.416-26.289-9.04-36.186,0.866l-69.752,69.741L203.438,194.179c-10.396-12.415-29.438-12.537-39.99-0.271L34.972,343.219
+		V96.172H515.828z M367.201,187.972c0-26.561,21.523-48.086,48.084-48.086c26.562,0,48.086,21.525,48.086,48.086
+        c0,26.561-21.523,48.085-48.086,48.085C388.725,236.058,367.201,214.533,367.201,187.972z" fill="white" />
+                                    </g>
+                                </svg>
+                                <p class="ourWorks__title">creatively designed</p>
+                                <p class="ourWorks__text">Lorem ipsum dolor sit.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ourWorks__workCard">
+                        <a target="_blank" href="https://www.pinterest.com/">
+                            <img class="ourWorks__img" src="img/our_works/pic2-2.png" alt="#">
+                            <div class="ourWorks__titleBlock">
+                                <svg version="1.1" x="0px" y="0px" width="55px" height="55px"
+                                    viewBox="0 0 550.801 550.8">
+                                    <g>
+                                        <path d="M515.828,61.201H34.972C15.659,61.201,0,76.859,0,96.172v358.458C0,473.942,15.659,489.6,34.972,489.6h480.856
+		c19.314,0,34.973-15.658,34.973-34.971V96.172C550.801,76.859,535.143,61.201,515.828,61.201z M515.828,96.172V350.51l-68.92-62.66
+		c-10.359-9.416-26.289-9.04-36.186,0.866l-69.752,69.741L203.438,194.179c-10.396-12.415-29.438-12.537-39.99-0.271L34.972,343.219
+		V96.172H515.828z M367.201,187.972c0-26.561,21.523-48.086,48.084-48.086c26.562,0,48.086,21.525,48.086,48.086
+        c0,26.561-21.523,48.085-48.086,48.085C388.725,236.058,367.201,214.533,367.201,187.972z" fill="white" />
+                                    </g>
+                                </svg>
+                                <p class="ourWorks__title">creatively designed</p>
+                                <p class="ourWorks__text">Lorem ipsum dolor sit.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="ourWorks__container">
+                <div class="ourWorks__workCard">
+                    <a target="_blank" href="https://www.pinterest.com/">
+                        <img class="ourWorks__img" src="img/our_works/pic3.png" alt="#">
+                        <div class="ourWorks__titleBlock">
+                            <svg version="1.1" x="0px" y="0px" width="55px" height="55px" viewBox="0 0 550.801 550.8">
+                                <g>
+                                    <path d="M515.828,61.201H34.972C15.659,61.201,0,76.859,0,96.172v358.458C0,473.942,15.659,489.6,34.972,489.6h480.856
+		c19.314,0,34.973-15.658,34.973-34.971V96.172C550.801,76.859,535.143,61.201,515.828,61.201z M515.828,96.172V350.51l-68.92-62.66
+		c-10.359-9.416-26.289-9.04-36.186,0.866l-69.752,69.741L203.438,194.179c-10.396-12.415-29.438-12.537-39.99-0.271L34.972,343.219
+		V96.172H515.828z M367.201,187.972c0-26.561,21.523-48.086,48.084-48.086c26.562,0,48.086,21.525,48.086,48.086
+        c0,26.561-21.523,48.085-48.086,48.085C388.725,236.058,367.201,214.533,367.201,187.972z" fill="white" />
+                                </g>
+                            </svg>
+                            <p class="ourWorks__title">creatively designed</p>
+                            <p class="ourWorks__text">Lorem ipsum dolor sit.</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="ourWorks__wrapper">
+                    <div class="ourWorks__workCard">
+                        <a target="_blank" href="https://www.pinterest.com/">
+                            <img class="ourWorks__img" src="img/our_works/pic4-1.png" alt="#">
+                            <div class="ourWorks__titleBlock">
+                                <svg version="1.1" x="0px" y="0px" width="55px" height="55px"
+                                    viewBox="0 0 550.801 550.8">
+                                    <g>
+                                        <path d="M515.828,61.201H34.972C15.659,61.201,0,76.859,0,96.172v358.458C0,473.942,15.659,489.6,34.972,489.6h480.856
+		c19.314,0,34.973-15.658,34.973-34.971V96.172C550.801,76.859,535.143,61.201,515.828,61.201z M515.828,96.172V350.51l-68.92-62.66
+		c-10.359-9.416-26.289-9.04-36.186,0.866l-69.752,69.741L203.438,194.179c-10.396-12.415-29.438-12.537-39.99-0.271L34.972,343.219
+		V96.172H515.828z M367.201,187.972c0-26.561,21.523-48.086,48.084-48.086c26.562,0,48.086,21.525,48.086,48.086
+        c0,26.561-21.523,48.085-48.086,48.085C388.725,236.058,367.201,214.533,367.201,187.972z" fill="white" />
+                                    </g>
+                                </svg>
+                                <p class="ourWorks__title">creatively designed</p>
+                                <p class="ourWorks__text">Lorem ipsum dolor sit.</p>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="ourWorks__workCard">
+                        <a target="_blank" href="https://www.pinterest.com/">
+                            <img class="ourWorks__img" src="img/our_works/pic4-2.png" alt="#">
+                            <div class="ourWorks__titleBlock">
+                                <svg version="1.1" x="0px" y="0px" width="55px" height="55px"
+                                    viewBox="0 0 550.801 550.8">
+                                    <g>
+                                        <path d="M515.828,61.201H34.972C15.659,61.201,0,76.859,0,96.172v358.458C0,473.942,15.659,489.6,34.972,489.6h480.856
+		c19.314,0,34.973-15.658,34.973-34.971V96.172C550.801,76.859,535.143,61.201,515.828,61.201z M515.828,96.172V350.51l-68.92-62.66
+		c-10.359-9.416-26.289-9.04-36.186,0.866l-69.752,69.741L203.438,194.179c-10.396-12.415-29.438-12.537-39.99-0.271L34.972,343.219
+		V96.172H515.828z M367.201,187.972c0-26.561,21.523-48.086,48.084-48.086c26.562,0,48.086,21.525,48.086,48.086
+        c0,26.561-21.523,48.085-48.086,48.085C388.725,236.058,367.201,214.533,367.201,187.972z" fill="white" />
+                                    </g>
+                                </svg>
+                                <p class="ourWorks__title">creatively designed</p>
+                                <p class="ourWorks__text">Lorem ipsum dolor sit.</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--WORK REVIEW SLIDER-->
+
+    <div class="wrapper">
+        <div class="workReview">
+            <div class="container">
+                <div class="flexslider flexslider__two" id="flexslider__two" style="direction:ltr">
+                    <ul class="slides">
+                        <li class="slider__item">
+                            <div class="slider__itemContainer">
+                                <div class="slider__itemIcon_photo">
+                                    <img class="slider__icon_photo" src="img/slider/ico2.png" alt="#">
+                                </div>
+                                <div class="slider__itemBody">
+                                    <div class="slider__textSection">
+                                        <p class="slider__text">“Lorem ipsum dolor sit amet, consectetur adipiscing
+                                            elit, sed do eiusmod
+                                            tempor
+                                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                            quis
+                                            nostrud exercitation.”</p>
+                                    </div>
+                                    <div class="slider__autorSection">
+                                        <div class="redLine"></div>
+                                        <p class="slider__autorName">Joshua Earle</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <div class="slider__itemContainer">
+                                <div class="slider__itemIcon_photo">
+                                    <img class="slider__icon_photo" src="img/slider/ico2.png" alt="#">
+                                </div>
+                                <div class="slider__itemBody">
+                                    <div class="slider__textSection">
+                                        <p class="slider__text">"Lorem ipsum dolor sit amet. Reiciendis sit dolorem
+                                            ratione ipsum excepturi quo
+                                            illum
+                                            officiis
+                                            reprehenderit dolore delectus?"</p>
+                                    </div>
+                                    <div class="slider__autorSection">
+                                        <div class="redLine"></div>
+                                        <p class="slider__autorName">Jon Doe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="slider__item">
+                            <div class="slider__itemContainer">
+                                <div class="slider__itemIcon_photo">
+                                    <img class="slider__icon_photo" src="img/slider/ico2.png" alt="#">
+                                </div>
+                                <div class="slider__itemBody">
+                                    <div class="slider__textSection">
+                                        <p class="slider__text">"Lorem ipsum dolor sit amet consectetur adipisicing
+                                            elit. Alias
+                                            ab odio consequuntur. Reiciendis sit dolorem ratione ipsum excepturi quo
+                                            illum
+                                            officiis
+                                            reprehenderit dolore delectus?"</p>
+                                    </div>
+                                    <div class="slider__autorSection">
+                                        <div class="redLine"></div>
+                                        <p class="slider__autorName">Jon Doe</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--HAPPY CLIENTS-->
+
+    <section class="section ">
+        <div class="happyClients">
+            <div class="happyClients__background kenburns-top"></div>
+            <div class="container">
+                <div class="section__header">
+                    <h3 class="section__suptitle">Happy Clients</h3>
+                    <h2 class="section__title">What people say</h2>
+                    <div class="redLine"></div>
+                </div>
+                <div class="happyClients__flexContainer">
+
+                    <div class="happyClients__clientCard">
+                        <img class="happyClients__img" src="img/happy_clients/ava1.png" alt="#">
+                        <div class="happyClients__textWrapper">
+                            <p class="happyClients__name">Matthew Dix</p>
+                            <p class="happyClients__profession">Graphic Design</p>
+                            <div class="redLine"></div>
+                            <p class="happyClients_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        </div>
+                    </div>
+
+                    <div class="happyClients__clientCard">
+                        <img class="happyClients__img" src="img/happy_clients/ava2.png" alt="#">
+                        <div class="happyClients__textWrapper">
+                            <p class="happyClients__name">Jaelynn Castillo</p>
+                            <p class="happyClients__profession">Graphic Design</p>
+                            <div class="redLine"></div>
+                            <p class="happyClients_text">Ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                                eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        </div>
+                    </div>
+
+                    <div class="happyClients__clientCard">
+                        <img class="happyClients__img" src="img/happy_clients/ava3.png" alt="#">
+                        <div class="happyClients__textWrapper">
+                            <p class="happyClients__name">Nick Karvounis</p>
+                            <p class="happyClients__profession">Graphic Design</p>
+                            <div class="redLine"></div>
+                            <p class="happyClients_text">Sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                        </div>
+                    </div>
+
+                    <div class="happyClients__clientCard">
+                        <img class="happyClients__img" src="img/happy_clients/ava4.png" alt="#">
+                        <div class="happyClients__textWrapper">
+                            <p class="happyClients__name">Mike Petrucci</p>
+                            <p class="happyClients__profession">Graphic Design</p>
+                            <div class="redLine"></div>
+                            <p class="happyClients_text">Dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                                tempor
+                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--BLOG-->
+
+    <section id="blog" class="section">
+        <div class="container">
+            <div class="section__header">
+                <h3 class="section__suptitle">Our stories</h3>
+                <h2 class="section__title">Latest blog</h2>
+                <div class="redLine"></div>
+            </div>
+
+            <div class="mogoBlog">
+
+                <div class="mogoBlog__item">
+                    <div class="mogoBlog__imgContainer">
+                        <a target="_blank" href="https://www.tumblr.com/"><img class="mogoBlog__img"
+                                src="img/blog/pic1.png" alt="#"></a>
+                        <div class="mogoBlog__itemDate">
+                            <p class="mogoBlog__day">15</p>
+                            <p class="mogoBlog__month">jan</p>
+                        </div>
+                    </div>
+                    <h4 class="mogoBlog__itemTitle">Lorem ipsum dolor sit amet</h4>
+                    <p class="mogoBlog__text">Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                        dolore magna aliqua.</p>
+                    <div class="mogoBlog__footer">
+                        <div class="mogoBlog__socialViews">
+                            <svg width="19.441" height="11.245" viewBox="0 0 19.441 11.245">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #95e1d3;
+                                        }
+                                    </style>
+                                </defs>
+                                <path id="VIEW" class="cls-1"
+                                    d="M789.71,9115.775c0,.009,0,.018,0,.025v.012c0,.006,0,.012,0,.018s0,.014,0,.021v0a.751.751,0,0,1-.2.409c-.2.247-.427.479-.651.707a16.8,16.8,0,0,1-4.123,3.123,11.032,11.032,0,0,1-3.089,1.115,8.979,8.979,0,0,1-3.55-.05,13.406,13.406,0,0,1-5.5-2.863,14.963,14.963,0,0,1-2.108-2.032.776.776,0,0,1,0-1.048c.2-.247.427-.479.651-.707a16.771,16.771,0,0,1,4.123-3.122,11,11,0,0,1,3.089-1.117,9,9,0,0,1,3.55.051,13.393,13.393,0,0,1,5.5,2.863,14.911,14.911,0,0,1,2.108,2.032.751.751,0,0,1,.2.409v0c0,.007,0,.014,0,.021s0,.012,0,.018v.013c0,.008,0,.016,0,.024s0,.024,0,.037S789.71,9115.764,789.71,9115.775Zm-9.719-3.833a3.645,3.645,0,1,0,3.645,3.645A3.645,3.645,0,0,0,779.99,9111.942Zm0,5.467a1.822,1.822,0,1,1,1.823-1.822A1.822,1.822,0,0,1,779.99,9117.409Z"
+                                    transform="translate(-770.27 -9110.116)" />
+                            </svg>
+                        </div>
+                        <p class="mogoBlog__number">542</p>
+                        <div class="mogoBlog__socialComents">
+                            <svg width="16.011" height="14.269" viewBox="0 0 16.011 14.269">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #95e1d3;
+                                        }
+                                    </style>
+                                </defs>
+                                <path data-name="SPEECH BUBBLE 2" class="cls-1"
+                                    d="M847.416,9121.358a11.69,11.69,0,0,1-1.676-.244,6.371,6.371,0,0,1-5.648,2.226c2.441-1.154,2.392-3.068,1.958-3.324a5.609,5.609,0,0,1-3.068-4.76c0-3.392,3.727-6.141,8.435-6.141s7.577,2.749,7.577,6.141S852.124,9121.358,847.416,9121.358Zm-4.174-7.483a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,843.242,9113.875Zm3.75,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,846.992,9113.875Zm3.75,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,850.742,9113.875Z"
+                                    transform="translate(-838.982 -9109.115)" />
+                            </svg>
+                        </div>
+                        <p class="mogoBlog__number">15</p>
+                    </div>
+                </div>
+
+                <div class="mogoBlog__item">
+                    <div class="mogoBlog__imgContainer">
+                        <a target="_blank" href="https://www.tumblr.com/"><img class="mogoBlog__img"
+                                src="img/blog/pic2.png" alt="#"></a>
+                        <div class="mogoBlog__itemDate">
+                            <p class="mogoBlog__day">14</p>
+                            <p class="mogoBlog__month">jan</p>
+                        </div>
+                    </div>
+                    <h4 class="mogoBlog__itemTitle">sed do eiusmod tempor</h4>
+                    <p class="mogoBlog__text">Adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                        magna
+                        aliqua.</p>
+                    <div class="mogoBlog__footer">
+                        <div class="mogoBlog__socialViews">
+                            <svg width="19.441" height="11.245" viewBox="0 0 19.441 11.245">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #95e1d3;
+                                        }
+                                    </style>
+                                </defs>
+                                <path class="cls-1"
+                                    d="M789.71,9115.775c0,.009,0,.018,0,.025v.012c0,.006,0,.012,0,.018s0,.014,0,.021v0a.751.751,0,0,1-.2.409c-.2.247-.427.479-.651.707a16.8,16.8,0,0,1-4.123,3.123,11.032,11.032,0,0,1-3.089,1.115,8.979,8.979,0,0,1-3.55-.05,13.406,13.406,0,0,1-5.5-2.863,14.963,14.963,0,0,1-2.108-2.032.776.776,0,0,1,0-1.048c.2-.247.427-.479.651-.707a16.771,16.771,0,0,1,4.123-3.122,11,11,0,0,1,3.089-1.117,9,9,0,0,1,3.55.051,13.393,13.393,0,0,1,5.5,2.863,14.911,14.911,0,0,1,2.108,2.032.751.751,0,0,1,.2.409v0c0,.007,0,.014,0,.021s0,.012,0,.018v.013c0,.008,0,.016,0,.024s0,.024,0,.037S789.71,9115.764,789.71,9115.775Zm-9.719-3.833a3.645,3.645,0,1,0,3.645,3.645A3.645,3.645,0,0,0,779.99,9111.942Zm0,5.467a1.822,1.822,0,1,1,1.823-1.822A1.822,1.822,0,0,1,779.99,9117.409Z"
+                                    transform="translate(-770.27 -9110.116)" />
+                            </svg>
+                        </div>
+                        <p class="mogoBlog__number">992</p>
+                        <div class="mogoBlog__socialComents">
+                            <svg width="16.011" height="14.269" viewBox="0 0 16.011 14.269">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #95e1d3;
+                                        }
+                                    </style>
+                                </defs>
+                                <path data-name="SPEECH BUBBLE 2" class="cls-1"
+                                    d="M847.416,9121.358a11.69,11.69,0,0,1-1.676-.244,6.371,6.371,0,0,1-5.648,2.226c2.441-1.154,2.392-3.068,1.958-3.324a5.609,5.609,0,0,1-3.068-4.76c0-3.392,3.727-6.141,8.435-6.141s7.577,2.749,7.577,6.141S852.124,9121.358,847.416,9121.358Zm-4.174-7.483a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,843.242,9113.875Zm3.75,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,846.992,9113.875Zm3.75,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,850.742,9113.875Z"
+                                    transform="translate(-838.982 -9109.115)" />
+                            </svg>
+                        </div>
+                        <p class="mogoBlog__number">42</p>
+                    </div>
+                </div>
+
+                <div class="mogoBlog__item">
+                    <div class="mogoBlog__imgContainer">
+                        <a target="_blank" href="https://www.tumblr.com/"><img class="mogoBlog__img"
+                                src="img/blog/pic3.png" alt="#"></a>
+                        <div class="mogoBlog__itemDate">
+                            <p class="mogoBlog__day">12</p>
+                            <p class="mogoBlog__month">jan</p>
+                        </div>
+                    </div>
+                    <h4 class="mogoBlog__itemTitle">incididunt ut labore et dolore</h4>
+                    <p class="mogoBlog__text">Elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                    </p>
+                    <div class="mogoBlog__footer">
+                        <div class="mogoBlog__socialViews">
+                            <svg width="19.441" height="11.245" viewBox="0 0 19.441 11.245">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #95e1d3;
+                                        }
+                                    </style>
+                                </defs>
+                                <path class="cls-1"
+                                    d="M789.71,9115.775c0,.009,0,.018,0,.025v.012c0,.006,0,.012,0,.018s0,.014,0,.021v0a.751.751,0,0,1-.2.409c-.2.247-.427.479-.651.707a16.8,16.8,0,0,1-4.123,3.123,11.032,11.032,0,0,1-3.089,1.115,8.979,8.979,0,0,1-3.55-.05,13.406,13.406,0,0,1-5.5-2.863,14.963,14.963,0,0,1-2.108-2.032.776.776,0,0,1,0-1.048c.2-.247.427-.479.651-.707a16.771,16.771,0,0,1,4.123-3.122,11,11,0,0,1,3.089-1.117,9,9,0,0,1,3.55.051,13.393,13.393,0,0,1,5.5,2.863,14.911,14.911,0,0,1,2.108,2.032.751.751,0,0,1,.2.409v0c0,.007,0,.014,0,.021s0,.012,0,.018v.013c0,.008,0,.016,0,.024s0,.024,0,.037S789.71,9115.764,789.71,9115.775Zm-9.719-3.833a3.645,3.645,0,1,0,3.645,3.645A3.645,3.645,0,0,0,779.99,9111.942Zm0,5.467a1.822,1.822,0,1,1,1.823-1.822A1.822,1.822,0,0,1,779.99,9117.409Z"
+                                    transform="translate(-770.27 -9110.116)" />
+                            </svg>
+                        </div>
+                        <p class="mogoBlog__number">1560</p>
+                        <div class="mogoBlog__socialComents">
+                            <svg width="16.011" height="14.269" viewBox="0 0 16.011 14.269">
+                                <defs>
+                                    <style>
+                                        .cls-1 {
+                                            fill: #95e1d3;
+                                        }
+                                    </style>
+                                </defs>
+                                <path data-name="SPEECH BUBBLE 2" class="cls-1"
+                                    d="M847.416,9121.358a11.69,11.69,0,0,1-1.676-.244,6.371,6.371,0,0,1-5.648,2.226c2.441-1.154,2.392-3.068,1.958-3.324a5.609,5.609,0,0,1-3.068-4.76c0-3.392,3.727-6.141,8.435-6.141s7.577,2.749,7.577,6.141S852.124,9121.358,847.416,9121.358Zm-4.174-7.483a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,843.242,9113.875Zm3.75,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,846.992,9113.875Zm3.75,0a1.5,1.5,0,1,0,1.5,1.5A1.5,1.5,0,0,0,850.742,9113.875Z"
+                                    transform="translate(-838.982 -9109.115)" />
+                            </svg>
+                        </div>
+                        <p class="mogoBlog__number">98</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--MAP-->
+
+    <div class="section">
+        <div class="mapSection">
+            <div class="mapSection__background kenburns-top"></div>
+            <a class="mapSection__link" target="_blank" href="https://www.google.com.ua/maps/place/Nikolaiviertel/@52.5166256,13.4053471,18.25z/data=!4m12!1m6!3m5!1s0x40d4ce02e4080bab:0x2b2f2b52535638e0!2z0JHQm9Ce0JrQkdCQ0KHQotCV0KA!8m2!3d50.4863268!4d30.5190325!3m4!1s0x47a84f04c9d492f9:0x9f1cd6dbe4f9e244!8m2!3d52.5174034!4d13.4070298?hl=ru">
+                <div class="mapSection__wrapper">
+                    <svg width="19.2" height="25.6" viewBox="0 0 19.2 25.6">
+                        <path data-name="PIN 2"
+                            d="M960,9322.8s-9.6-10.7-9.6-16a9.6,9.6,0,0,1,19.2,0C969.6,9312.1,960,9322.8,960,9322.8Zm0-22.4a6.4,6.4,0,1,0,6.4,6.4A6.4,6.4,0,0,0,960,9300.4Zm0,9.6a3.2,3.2,0,1,1,3.2-3.2A3.2,3.2,0,0,1,960,9310Z"
+                            transform="translate(-950.4 -9297.2)" fill="#f38181" />
+                    </svg>
+                </div>
+            </a>
+            <p class="mapSection__title">Open map</p>
+            <div class="redLine"></div>
+        </div>
+    </div>
+
+    <!--FOOTER-->
+
+    <section id="footer" class="section">
+        <div class="footer">
+            <div class="container">
+                <div class="footer__container">
+                    <div class="footer__registration">
+                        <h2 class="footer__registrationTitle">MoGo</h2>
+                        <p class="footer__registrationText">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                            do
+                            eiusmod
+                            tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+                        <div class="footer__registrationBottomblock">
+                            <p class="footer__followers"><span class="footer__followersNumber">15k</span>followers</p>
+                            <div class="footer__social">
+                                <p>Follow Us:</p>
+                                <div class="footer__linkList">
+                                    <a class="footer__link" target="_blank" href="https://www.facebook.com/">
+                                        <svg class="scale-up-br" width="7.505" height="16.006"
+                                            viewBox="0 0 7.505 16.006">
+                                            <path id="facebook"
+                                                d="M454.993,9776.015v2.575s-1.9-.188-2.374.538a7.322,7.322,0,0,0-.129,2.4h2.518c-.213.978-.365,1.64-.522,2.486h-2.01v8h-3.489c0-2.467,0-5.345,0-7.971H447.5v-2.518h1.468c.075-1.842.1-3.666,1.018-4.594C451.018,9775.889,452,9776.015,454.993,9776.015Z"
+                                                transform="translate(-447.504 -9776.01)" fill="#95e1d3" />
+                                        </svg>
+                                    </a>
+                                    <a class="footer__link" target="_blank" href="https://twitter.com/">
+                                        <svg class="scale-up-br" width="16" height="12.987" viewBox="0 0 16 12.987">
+                                            <path id="twitter"
+                                                d="M483.883,9777.516a3.375,3.375,0,0,1,2.595,1.03,5.325,5.325,0,0,0,1.682-.567l.408-.224a3.28,3.28,0,0,1-1.065,1.541,1.562,1.562,0,0,1-.36.256v.008a6.156,6.156,0,0,0,1.858-.5v.008a5.286,5.286,0,0,1-1.113,1.277l-.513.407a9.4,9.4,0,0,1-.152,2.107,9.176,9.176,0,0,1-6.43,7.258,9.815,9.815,0,0,1-4.645.191,11.972,11.972,0,0,1-1.93-.63,7.792,7.792,0,0,1-.929-.479l-.288-.176a5.352,5.352,0,0,0,1.049.04c.323-.052.639-.038.937-.1a6.706,6.706,0,0,0,1.97-.711,3.66,3.66,0,0,0,.889-.582,2.8,2.8,0,0,1-.977-.176,3.3,3.3,0,0,1-2.082-2.1c.322.035,1.249.119,1.466-.063a2.4,2.4,0,0,1-1.073-.432,3.158,3.158,0,0,1-1.546-2.811l.336.16a3.637,3.637,0,0,0,.689.192,1,1,0,0,0,.448.039h-.016c-.165-.192-.435-.32-.6-.526a3.355,3.355,0,0,1-.737-2.979,3.84,3.84,0,0,1,.352-.854l.016.009a2.019,2.019,0,0,0,.3.343,6,6,0,0,0,.977.934,9.671,9.671,0,0,0,4.012,1.941,6.327,6.327,0,0,0,1.473.19,3.047,3.047,0,0,1,.016-1.54,3.235,3.235,0,0,1,1.858-2.2,3.957,3.957,0,0,1,.729-.224Z"
+                                                transform="translate(-473 -9777.515)" fill="#95e1d3" />
+                                        </svg>
+                                    </a>
+                                    <a class="footer__link" target="_blank" href="https://www.instagram.com/">
+                                        <svg class="scale-up-br" width="16" height="16" viewBox="0 0 16 16">
+                                            <path id="instagram"
+                                                d="M517,9792.015H505a2,2,0,0,1-2-2v-12a2,2,0,0,1,2-2h12a2,2,0,0,1,2,2v12A2,2,0,0,1,517,9792.015Zm-6-11.1a3.1,3.1,0,0,0-2.811,1.8h0c-.005.012-.009.023-.014.034-.029.065-.055.133-.08.2-.012.032-.025.063-.036.1-.023.069-.042.141-.059.212-.009.033-.018.066-.026.1-.016.076-.027.153-.038.23,0,.031-.011.062-.014.094a3.1,3.1,0,1,0,6.163,0c0-.032-.01-.062-.014-.094-.011-.077-.022-.154-.038-.23-.007-.033-.017-.066-.026-.1-.018-.071-.037-.143-.06-.212-.011-.034-.024-.065-.036-.1-.025-.068-.051-.136-.081-.2,0-.011-.008-.022-.014-.034h0A3.1,3.1,0,0,0,511,9780.915Zm6.2-2.3a.8.8,0,0,0-.8-.8h-1.6a.8.8,0,0,0-.8.8v1.6a.8.8,0,0,0,.8.8h1.6a.8.8,0,0,0,.8-.8Zm0,4.1h-1.475a4.9,4.9,0,1,1-9.451,0H504.8v6.7a.8.8,0,0,0,.8.8h10.8a.8.8,0,0,0,.8-.8Z"
+                                                transform="translate(-503 -9776.015)" fill="#95e1d3" />
+                                        </svg>
+                                    </a>
+                                    <a class="footer__link" target="_blank" href="https://www.pinterest.com/">
+                                        <svg class="scale-up-br" width="12.246" height="16.036"
+                                            viewBox="0 0 12.246 16.036">
+                                            <path id="pinterest"
+                                                d="M539.844,9786.424c-.131.521-.262,1.066-.4,1.6a12.228,12.228,0,0,1-.448,1.543,7.906,7.906,0,0,1-1.277,2.2c-.359.417-.283.25-.391.228-.083-.017-.09-.1-.106-.215a12.043,12.043,0,0,1,0-2.087,11.278,11.278,0,0,1,.368-2.17c.3-1.29.592-2.554.9-3.852.02-.087.075-.229.056-.278a4.014,4.014,0,0,1-.268-1.062,3.383,3.383,0,0,1,.087-1.215,2,2,0,0,1,1.184-1.461,1.352,1.352,0,0,1,1.084.082,1.179,1.179,0,0,1,.542.777,2.806,2.806,0,0,1-.05,1.183c-.167.762-.386,1.334-.586,2.068a2.276,2.276,0,0,0-.118,1.133,1.315,1.315,0,0,0,.53.8,1.546,1.546,0,0,0,1.015.285,2.221,2.221,0,0,0,1.657-.98,5.8,5.8,0,0,0,1.047-2.93,7.2,7.2,0,0,0,.044-1.259,3.424,3.424,0,0,0-.7-1.947,3.3,3.3,0,0,0-1.57-1.069,5.213,5.213,0,0,0-2.343-.146,4.147,4.147,0,0,0-3.071,2.208,4.422,4.422,0,0,0-.523,2.131,2.765,2.765,0,0,0,.424,1.563c.083.126.205.229.287.374.115.2-.018.507-.075.727-.069.266-.076.633-.386.64a.942.942,0,0,1-.4-.152,3.2,3.2,0,0,1-1.514-2.334,5.587,5.587,0,0,1,0-2.024,5.755,5.755,0,0,1,2.747-3.839,6.514,6.514,0,0,1,2.442-.841c.318-.047.646-.066,1-.083a6.035,6.035,0,0,1,2.7.506,5.534,5.534,0,0,1,1.863,1.341,5.075,5.075,0,0,1,1.146,2.069,4.97,4.97,0,0,1,.248,1.429,8.587,8.587,0,0,1-.192,1.48,5.832,5.832,0,0,1-2.4,4.036,4.163,4.163,0,0,1-1.1.506,4,4,0,0,1-1.4.176,2.876,2.876,0,0,1-1.24-.359A2.059,2.059,0,0,1,539.844,9786.424Z"
+                                                transform="translate(-534.749 -9776.012)" fill="#95e1d3" />
+                                        </svg>
+                                    </a>
+                                    <a class="footer__link" target="_blank" href="https://mail.google.com/">
+                                        <svg class="scale-up-br" width="16" height="13.752" viewBox="0 0 16 13.752">
+                                            <path id="google_plus" data-name="google plus"
+                                                d="M576.5,9780.717v2.439h-1v-2.439H573v-1h2.5v-2.439h1v2.439H579v1Zm-6.914-2.471a2.56,2.56,0,0,1,1.407,2.331,2.707,2.707,0,0,1-1.239,2.1c-.681.522-.81.742-.81,1.186,0,.379.729,1.024,1.111,1.29a2.848,2.848,0,0,1,1.444,2.692c0,1.5-1.444,3.169-4.116,3.169-2.344,0-4.383-1.12-4.383-2.617,0-1.521,1.866-2.987,4.209-2.987.255,0,.489-.011.732-.011a1.608,1.608,0,0,1-.574-1.15,1.714,1.714,0,0,1,.214-.785c-.127.009-.257-.012-.391-.012a3.061,3.061,0,0,1-3.214-3.058c0-1.631,1.781-3.132,3.673-3.132h4.22l-.944.982Zm-1.93,7.553c-1.62-.017-3.071.971-3.071,2.156,0,1.209,1.17,2.094,2.79,2.094,2.277,0,3.071-.822,3.071-2.032a1.819,1.819,0,0,0-.052-.428c-.178-.685-.808-1.023-1.688-1.624A3.616,3.616,0,0,0,567.656,9785.8Zm1.82-5.2a2.819,2.819,0,0,0-2.355-2.559c-1.087-.031-1.816,1.041-1.628,2.443a2.821,2.821,0,0,0,2.308,2.6C568.887,9783.108,569.663,9782,569.476,9780.6Z"
+                                                transform="translate(-563 -9777.264)" fill="#95e1d3" />
+                                        </svg>
+                                    </a>
+                                    <a class="footer__link" target="_blank" href="https://www.youtube.com/">
+                                        <svg class="scale-up-br" class="footer__link_youtube" width="15.997"
+                                            height="10.998" viewBox="0 0 15.997 10.998">
+                                            <path id="youtube"
+                                                d="M606.537,9778.522l-5.225,0-5.429,0c-1.358,0-2.883.907-2.883,2.236v6.618c0,1.329,1.525,2.14,2.883,2.14h10.654a2.223,2.223,0,0,0,2.459-2.14v-6.618A2.3,2.3,0,0,0,606.537,9778.522Zm-6.573,8.043-.032-5.04,3.508,2.543Z"
+                                                transform="translate(-593 -9778.519)" fill="#95e1d3" />
+                                        </svg>
+                                    </a>
+                                    <a class="footer__link" target="_blank" href="https://dribbble.com/">
+                                        <svg class="scale-up-br" width="16.001" height="16.001"
+                                            viewBox="0 0 16.001 16.001">
+                                            <path id="dribbble"
+                                                d="M638.838,9782.4a8.02,8.02,0,0,0-4.723-5.761,7.865,7.865,0,0,0-1.5-.466,8.04,8.04,0,0,0-3.222,0,7.872,7.872,0,0,0-1.5.466,8.022,8.022,0,0,0-2.543,1.715,8.014,8.014,0,0,0-2.181,7.268,7.97,7.97,0,0,0,1.2,2.862,7.995,7.995,0,0,0,2.16,2.16,7.994,7.994,0,0,0,8.947,0,8,8,0,0,0,2.16-2.16,7.965,7.965,0,0,0,1.2-2.862,8.052,8.052,0,0,0,0-3.222Zm-1.007,1.543a15.814,15.814,0,0,0-4.759-.225c-.048-.117-.1-.234-.147-.353-.142-.334-.3-.665-.454-.991a8.789,8.789,0,0,0,3.807-2.7A6.8,6.8,0,0,1,637.83,9783.947Zm-2.318-5.06a7.443,7.443,0,0,1-3.569,2.474,34.52,34.52,0,0,0-2.554-3.985,6.818,6.818,0,0,1,6.123,1.512Zm-6.149-1.507h0a.113.113,0,0,1-.02,0Zm-1.279.455a41.039,41.039,0,0,1,2.537,3.937,25.251,25.251,0,0,1-6.308.834A6.84,6.84,0,0,1,628.085,9777.836Zm-3.917,6.179c0-.073,0-.145.006-.216a25.063,25.063,0,0,0,7.014-.973c.2.382.383.771.554,1.16-.09.025-.18.053-.269.082a10.808,10.808,0,0,0-5.557,4.509.008.008,0,0,1,0,0A6.811,6.811,0,0,1,624.168,9784.015Zm6.833,6.833a6.8,6.8,0,0,1-4.352-1.566c.09.073.153.12.153.12a9.254,9.254,0,0,1,5.362-4.269l.045-.014a28.416,28.416,0,0,1,1.46,5.188A6.8,6.8,0,0,1,631,9790.848Zm3.818-1.166a29.507,29.507,0,0,0-1.33-4.88,9.88,9.88,0,0,1,4.258.3A6.835,6.835,0,0,1,634.818,9789.682Z"
+                                                transform="translate(-623 -9776.015)" fill="#95e1d3" />
+                                        </svg>
+                                    </a>
+                                    <a class="footer__link" target="_blank" href="https://www.tumblr.com/">
+                                        <svg class="scale-up-br" width="10.002" height="16.01"
+                                            viewBox="0 0 10.002 16.01">
+                                            <path id="tumblr"
+                                                d="M666.009,9791.146a9.578,9.578,0,0,1-1.849.678,7.808,7.808,0,0,1-1.79.194,4.868,4.868,0,0,1-1.717-.275,4.17,4.17,0,0,1-1.431-.791,2.873,2.873,0,0,1-.823-1.092,4.761,4.761,0,0,1-.229-1.677v-5.614h-2.164V9780.3a5.613,5.613,0,0,0,1.8-.878,4.372,4.372,0,0,0,1.075-1.376,6.2,6.2,0,0,0,.558-2.04H661.7v3.7h3.682v2.856H661.7v4.105a7.018,7.018,0,0,0,.086,1.727,1.474,1.474,0,0,0,.607.691,2.3,2.3,0,0,0,1.208.319,4.34,4.34,0,0,0,2.406-.791Z"
+                                                transform="translate(-656.007 -9776.008)" fill="#95e1d3" />
+                                        </svg>
+                                    </a>
+                                </div>
+                            </div>
+                            <form class="footer__subscribe" action="/" method="POST">
+                                <input class="footer__input" type="email" name="name" placeholder="Your Email...">
+                                <button class="footer__btn" type="submit">Subscribe</button>
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="footer__blogs">
+                        <h2 class="footer__blogsTitle">blogs</h2>
+                        <div class="footer__blogsContainer">
+
+                            <div class="footer__blogsItem">
+                                <div class="footer__blogsImgblock">
+                                    <a class="footer__blogsLink" href="https://www.tumblr.com/" target="_blank">
+                                        <img class="footer__blogsImg" src="img/footer/blogs/pic1.png" alt="#">
+                                    </a>
+                                </div>
+                                <div class="footer__blogsTextwrapper">
+                                    <p class="footer__blogsText">Lorem ipsum dolor sit amet,
+                                        consectetur adipiscing</p>
+                                    <p class="footer__blogsDate">Jan 9, 2016</p>
+                                </div>
+                            </div>
+
+                            <div class="footer__blogsItem">
+                                <div class="footer__blogsImgblock">
+                                    <a class="footer__blogsLink" href="https://www.tumblr.com/" target="_blank">
+                                        <img class="footer__blogsImg" src="img/footer/blogs/pic2.png" alt="#">
+                                    </a>
+                                </div>
+                                <div class="footer__blogsTextwrapper">
+                                    <p class="footer__blogsText">Consectetur adipiscing elit,
+                                        sed do eiusmod tempor</p>
+                                    <p class="footer__blogsDate">Jan 9, 2016</p>
+                                </div>
+                            </div>
+
+                            <div class="footer__blogsItem">
+                                <div class="footer__blogsImgblock">
+                                    <a class="footer__blogsLink" href="https://www.tumblr.com/" target="_blank">
+                                        <img class="footer__blogsImg" src="img/footer/blogs/pic3.png" alt="#">
+                                    </a>
+                                </div>
+                                <div class="footer__blogsTextwrapper">
+                                    <p class="footer__blogsText">sed do eiusmod tempor
+                                        incididunt ut labore</p>
+                                    <p class="footer__blogsDate">Jan 9, 2016</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="footer__instagram">
+                        <h2 class="footer__instagramTitle">instagram</h2>
+                        <div class="footer__photoContainer">
+
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic1.png" alt="#">
+                            </a>
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic2.png" alt="#">
+                            </a>
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic3.png" alt="#">
+                            </a>
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic4.png" alt="#">
+                            </a>
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic5.png" alt="#">
+                            </a>
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic6.png" alt="#">
+                            </a>
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic7.png" alt="#">
+                            </a>
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic8.png" alt="#">
+                            </a>
+                            <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
+                                <img class="footer__instagramImg" src="img/footer/instagram/pic9.png" alt="#">
+                            </a>
+                        </div>
+                        <a class="footer__instagramMore" href="https://www.instagram.com/" target="_blank">
+                            <p>View more photos</p>
+                        </a>
+                    </div>
+                </div>
+                <div class="footer__developersBlock">
+                    <p>© 2016 MoGo free PSD template by <a class="footer__developersLink" target="_blank"
+                            href="https://www.behance.net/laaqiq">Laaqiq</a></p>
+                    <p class="w3c__label">
+                        <a href="http://jigsaw.w3.org/css-validator/check/referer">
+                            <img style="border:0;width:88px;height:31px"
+                                src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Правильный CSS!" />
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+</body>
+
+</html>
