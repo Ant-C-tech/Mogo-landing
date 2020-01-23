@@ -9,14 +9,6 @@
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/flexslider.css">
-
-
-    <script src="js/jquery-3.4.1.js"></script>
-    <script src="js/jquery.malihu.PageScroll2id.min.js"></script>
-    <script src="js/jquery-easing.js"></script>
-    <script src="js/jquery.flexslider.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script> -->
-    <script src="js/script.js"></script>
 </head>
 
 <body>
@@ -115,13 +107,6 @@
                 </div>
             </div>
         </div>
-        <script>
-            (function ($) {
-                $(window).on("load", function () {
-                    $("a[rel='m_PageScroll2id']").mPageScroll2id();
-                });
-            })(jQuery);
-        </script>
     </div>
 
 
@@ -1401,8 +1386,23 @@
         </div>
     </section>
 
+<!-- Skripts -->
+<script src="js/jquery-3.4.1.js"></script>
+<script src="js/jquery.malihu.PageScroll2id.min.js"></script>
+<!-- Подключаем плавных переход по якорям и навигацию -->
+        <script>
+            (function ($) {
+                $(window).on("load", function () {
+                    $("a[rel='m_PageScroll2id']").mPageScroll2id();
+                });
+            })(jQuery);
+        </script>
+<script src="js/jquery.flexslider.js"></script>
+<script src="js/script.js"></script>
 
 
 </body>
+
+
 
 </html>
