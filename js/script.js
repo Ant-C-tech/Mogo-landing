@@ -9,6 +9,8 @@ $(document).ready(function () {
         controlNav: false,
         animationLoop: true,
         slideshow: false,
+        prevText: "",           
+        nextText: "",     
     });
 
     $('#flexslider__two').flexslider({
@@ -18,6 +20,8 @@ $(document).ready(function () {
         slideshow: true,
         slideshowSpeed: 2500,
         pauseOnHover: true,
+        prevText: "",           
+        nextText: "",     
     });
 
 });
