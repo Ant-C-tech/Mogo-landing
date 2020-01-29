@@ -1080,6 +1080,7 @@ p {
 .nav__menuIcon {
     display: block;
     margin-right: 10px;
+    width: 20px;
 }
 
 .nav__menuText {
@@ -1144,6 +1145,13 @@ p {
     .nav__menuToggle:hover {
         color: white;
         border-bottom: none;
+    }
+    .nav__menuIcon {
+     margin: 0 auto;
+    }
+    .nav__menuIcon_search{
+        padding-left: 3px;
+        padding-top: 3px;
     }
 }
 
@@ -1254,6 +1262,12 @@ p {
 .aboutUs__titleIcon {
     text-align: center;
     line-height: 2;
+}
+
+.aboutUs__icon{
+    width: 32px;
+    display: block;
+    margin: 0 auto;
 }
 
 .aboutUs__titleText {
@@ -1755,13 +1769,13 @@ p {
     opacity: 1;
 }
 
+.ourTeam__linkIcon{
+    fill: #f38181;
+}
+
 .ourTeam__link:hover {
     background: #f38181;
     color: white;
-}
-
-.ourTeam__linkIcon {
-    fill: #f38181;
 }
 
 .ourTeam__link:hover .ourTeam__linkIcon {
@@ -1896,6 +1910,12 @@ p {
     opacity: 0;
     -webkit-transition: opacity 0.2s linear;
     transition: opacity 0.2s linear;
+}
+
+.ourWorks__icon{
+    display: block;
+    margin: 0 auto;
+    max-width: 55px;
 }
 
 .ourWorks__title {
@@ -2178,6 +2198,16 @@ p {
     margin-right: 8px;
 }
 
+.mogoBlog__socialImg{
+    display: block;
+    width: 25px;
+}
+
+.mogoBlog__socialImg_comment{
+    width: 22px;
+    margin-bottom: 3px;
+}
+
 .mogoBlog__socialComents {
     margin-top: 9px;
     margin-left: 25px;
@@ -2268,14 +2298,20 @@ p {
     transition: all 0.2s linear;
 }
 
+.mapSection__pin{
+    display: block;
+    margin: 0 auto;
+    width: 25px;
+}
+
 .mapSection__link:hover .mapSection__wrapper {
     -webkit-transform: translate3d(-10px, -10px, 0);
-    transform: translate3d(-10px, -10px, 0);
+    transform: translate3d(-8px, -8px, 0);
 }
 
 .mapSection__link:hover .mapSection__wrapper svg {
-    -webkit-transform: scale(1.5);
-    transform: scale(1.5);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .mapSection__link:hover~.mapSection__title {
