@@ -7,7 +7,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>MoGo</title>
     <link rel="shortcut icon" type="image/x-icon" href="img/intro/icon.ico">
-        <link rel="stylesheet" href="styles/firstStyle.css">
+    <link rel="stylesheet" href="styles/firstStyle.css">
+    <!-- Если отключен скрипт -->
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="styles/style.css" />
+        <link rel="stylesheet" type="text/css" href="styles/normalize.css" />
+    </noscript>
 </head>
 
 <body>
@@ -109,8 +114,7 @@
                 <div class="imageSection__item">
                     <a target="_blank" href="https://www.pinterest.com/">
                         <div class="imageSection__container">
-                            <img class="imageSection__image lazyload" alt="#" src="img/about/pic1-m.webp"
-                                data-src="img/about/pic1.webp">
+                            <img class="imageSection__image lazyload" alt="#" data-src="img/about/pic1.webp">
                             <div class=" aboutUs__title">
                                 <div class="aboutUs__titleIcon">
                                     <img class="aboutUs__icon" src="img/about/user-friends-solid.svg" alt="#">
@@ -125,8 +129,7 @@
                 <div class="imageSection__item">
                     <a target="_blank" href="https://www.pinterest.com/">
                         <div class="imageSection__container">
-                            <img class="imageSection__image lazyload" alt="#" src="img/about/pic2-m.webp"
-                                data-src="img/about/pic2.webp">
+                            <img class="imageSection__image lazyload" alt="#" data-src="img/about/pic2.webp">
                             <div class="aboutUs__title">
                                 <div class="aboutUs__titleIcon">
                                     <img class="aboutUs__icon" src="img/about/user-friends-solid.svg" alt="#">
@@ -141,8 +144,7 @@
                 <div class="imageSection__item">
                     <a target="_blank" href="https://www.pinterest.com/">
                         <div class="imageSection__container">
-                            <img class="imageSection__image lazyload" alt="#" src="img/about/pic3-m.webp"
-                                data-src="img/about/pic3.webp">
+                            <img class="imageSection__image lazyload" alt="#" data-src="img/about/pic3.webp">
                             <div class="aboutUs__title">
                                 <div class="aboutUs__titleIcon">
                                     <img class="aboutUs__icon" src="img/about/user-friends-solid.svg" alt="#">
@@ -288,12 +290,10 @@
                 </div>
                 <div class="uniqueDesign__deviceContainer">
                     <div class="uniqueDesign__tabletContainer">
-                        <img class="uniqueDesign__tablet lazyload" src="./img/unique_design/ipadXD-m.webp" alt="#"
-                            data-src="./img/unique_design/ipadXD.webp">
+                        <img class="uniqueDesign__tablet lazyload" alt="#" data-src="img/unique_design/ipadXD.webp">
                     </div>
                     <div class="uniqueDesign__phoneContainer">
-                        <img class="uniqueDesign__phone lazyload" src="./img/unique_design/iphone-m3.webp" alt="#"
-                            data-src="./img/unique_design/iphone.webp">
+                        <img class="uniqueDesign__phone lazyload" alt="#" data-src="img/unique_design/iphone.webp">
                     </div>
                 </div>
             </div>
@@ -317,8 +317,7 @@
             </div>
             <div class="whatWedo">
                 <div class="whatWedo__imgContainer">
-                    <img class="whatWedo__img lazyload" src="img/wwd/wwd-pic-m.webp" alt="#"
-                        data-src="img/wwd/wwd-pic.webp">
+                    <img class="whatWedo__img lazyload" alt="#" data-src="img/wwd/wwd-pic.webp">
                 </div>
                 <div class="burgerBlock">
                     <div class="burgerBlock__item">
@@ -555,8 +554,7 @@
             <div class="imageSection">
                 <div class="imageSection__item">
                     <div class="imageSection__container">
-                        <img class="imageSection__image lazyload" src="img/our_team/1/Rectangle_14-m.webp" alt="#"
-                            data-src="img/our_team/1/Rectangle_14.webp">
+                        <img class="imageSection__image lazyload" alt="#" data-src="img/our_team/1/Rectangle_14.webp">
                         <div class="ourTeam__linkList">
                             <a class="ourTeam__link" target="_blank" href="https://www.facebook.com/">
                                 <svg class="ourTeam__linkIcon" width="11.25" height="24.009" viewBox="0 0 7.505 16.006">
@@ -596,8 +594,7 @@
                 </div>
                 <div class="imageSection__item">
                     <div class="imageSection__container">
-                        <img class="imageSection__image lazyload" src="img/our_team/2/Rectangle_14-m.webp" alt="#"
-                            data-src="img/our_team/2/Rectangle_14.webp">
+                        <img class="imageSection__image lazyload" alt="#" data-src="img/our_team/2/Rectangle_14.webp">
                         <div class="ourTeam__linkList">
                             <a class="ourTeam__link" target="_blank" href="https://www.facebook.com/">
                                 <svg class="ourTeam__linkIcon" width="11.25" height="24.009" viewBox="0 0 7.505 16.006">
@@ -637,8 +634,7 @@
                 </div>
                 <div class="imageSection__item">
                     <div class="imageSection__container">
-                        <img class="imageSection__image lazyload" src="img/our_team/3/Rectangle_14-m.webp" alt="#"
-                            data-src="img/our_team/3/Rectangle_14.webp">
+                        <img class="imageSection__image lazyload" alt="#" data-src="img/our_team/3/Rectangle_14.webp">
                         <div class="ourTeam__linkList">
                             <a class="ourTeam__link" target="_blank" href="https://www.facebook.com/">
                                 <svg class="ourTeam__linkIcon" width="11.25" height="24.009" viewBox="0 0 7.505 16.006">
@@ -687,32 +683,32 @@
             <div class="partners__container">
                 <div class="partners__item rotate-scale-down-hor">
                     <a target="_blank" href="https://www.google.com/">
-                        <img class="partners__img" src="img/partners/pic1.webp" alt="#">
+                        <img class="partners__img lazyload" data-src="img/partners/pic1.webp" alt="#">
                     </a>
                 </div>
                 <div class="partners__item rotate-scale-down-hor">
                     <a target="_blank" href="https://www.google.com/">
-                        <img class="partners__img" src="img/partners/pic2.webp" alt="#">
+                        <img class="partners__img lazyload" data-src="img/partners/pic2.webp" alt="#">
                     </a>
                 </div>
                 <div class="partners__item rotate-scale-down-hor">
                     <a target="_blank" href="https://www.google.com/">
-                        <img class="partners__img" src="img/partners/pic3.webp" alt="#">
+                        <img class="partners__img lazyload" data-src="img/partners/pic3.webp" alt="#">
                     </a>
                 </div>
                 <div class="partners__item rotate-scale-down-hor">
                     <a target="_blank" href="https://www.google.com/">
-                        <img class="partners__img" src="img/partners/pic4.webp" alt="#">
+                        <img class="partners__img lazyload" data-src="img/partners/pic4.webp" alt="#">
                     </a>
                 </div>
                 <div class="partners__item rotate-scale-down-hor">
                     <a target="_blank" href="https://www.google.com/">
-                        <img class="partners__img" src="img/partners/pic5.webp" alt="#">
+                        <img class="partners__img lazyload" data-src="img/partners/pic5.webp" alt="#">
                     </a>
                 </div>
                 <div class="partners__item rotate-scale-down-hor">
                     <a target="_blank" href="https://www.google.com/">
-                        <img class="partners__img" src="img/partners/pic6.webp" alt="#">
+                        <img class="partners__img lazyload" data-src="img/partners/pic6.webp" alt="#">
                     </a>
                 </div>
             </div>
@@ -741,8 +737,7 @@
                 <div class="ourWorks__wrapper">
                     <div class="ourWorks__workCard">
                         <a target="_blank" href="https://www.pinterest.com/">
-                            <img class="ourWorks__img lazyload" src="img/our_works/pic1-1-m.webp" alt="#"
-                                data-src="img/our_works/pic1-1.webp">
+                            <img class="ourWorks__img lazyload" alt="#" data-src="img/our_works/pic1-1.webp">
                             <div class="ourWorks__titleBlock">
                                 <img src="img/our_works/image-solid.svg" alt="#" class="ourWorks__icon">
                                 <p class="ourWorks__title">creatively designed</p>
@@ -752,8 +747,7 @@
                     </div>
                     <div class="ourWorks__workCard">
                         <a target="_blank" href="https://www.pinterest.com/">
-                            <img class="ourWorks__img lazyload" src="img/our_works/pic1-2-m.webp" alt="#"
-                                data-src="img/our_works/pic1-2.webp">
+                            <img class="ourWorks__img lazyload" alt="#" data-src="img/our_works/pic1-2.webp">
                             <div class="ourWorks__titleBlock">
                                 <img src="img/our_works/image-solid.svg" alt="#" class="ourWorks__icon">
                                 <p class="ourWorks__title">creatively designed</p>
@@ -765,8 +759,7 @@
                 <div class="ourWorks__wrapper">
                     <div class="ourWorks__workCard">
                         <a target="_blank" href="https://www.pinterest.com/">
-                            <img class="ourWorks__img lazyload" src="img/our_works/pic2-1-m.webp" alt="#"
-                                data-src="img/our_works/pic2-1.webp">
+                            <img class="ourWorks__img lazyload" alt="#" data-src="img/our_works/pic2-1.webp">
                             <div class="ourWorks__titleBlock">
                                 <img src="img/our_works/image-solid.svg" alt="#" class="ourWorks__icon">
                                 <p class="ourWorks__title">creatively designed</p>
@@ -776,8 +769,7 @@
                     </div>
                     <div class="ourWorks__workCard">
                         <a target="_blank" href="https://www.pinterest.com/">
-                            <img class="ourWorks__img lazyload" src="img/our_works/pic2-2-m.webp" alt="#"
-                                data-src="img/our_works/pic2-2.webp">
+                            <img class="ourWorks__img lazyload" alt="#" data-src="img/our_works/pic2-2.webp">
                             <div class="ourWorks__titleBlock">
                                 <img src="img/our_works/image-solid.svg" alt="#" class="ourWorks__icon">
                                 <p class="ourWorks__title">creatively designed</p>
@@ -790,8 +782,7 @@
             <div class="ourWorks__container">
                 <div class="ourWorks__workCard">
                     <a target="_blank" href="https://www.pinterest.com/">
-                        <img class="ourWorks__img lazyload" src="img/our_works/pic3-m.webp" alt="#"
-                            data-src="img/our_works/pic3.webp">
+                        <img class="ourWorks__img lazyload" alt="#" data-src="img/our_works/pic3.webp">
                         <div class="ourWorks__titleBlock">
                             <img src="img/our_works/image-solid.svg" alt="#" class="ourWorks__icon">
                             <p class="ourWorks__title">creatively designed</p>
@@ -802,8 +793,7 @@
                 <div class="ourWorks__wrapper">
                     <div class="ourWorks__workCard">
                         <a target="_blank" href="https://www.pinterest.com/">
-                            <img class="ourWorks__img lazyload" src="img/our_works/pic4-1-m.webp" alt="#"
-                                data-src="img/our_works/pic4-1.webp">
+                            <img class="ourWorks__img lazyload" alt="#" data-src="img/our_works/pic4-1.webp">
                             <div class="ourWorks__titleBlock">
                                 <img src="img/our_works/image-solid.svg" alt="#" class="ourWorks__icon">
                                 <p class="ourWorks__title">creatively designed</p>
@@ -813,8 +803,7 @@
                     </div>
                     <div class="ourWorks__workCard">
                         <a target="_blank" href="https://www.pinterest.com/">
-                            <img class="ourWorks__img lazyload" src="img/our_works/pic4-2-m.webp" alt="#"
-                                data-src="img/our_works/pic4-2.webp">
+                            <img class="ourWorks__img lazyload" alt="#" data-src="img/our_works/pic4-2.webp">
                             <div class="ourWorks__titleBlock">
                                 <img src="img/our_works/image-solid.svg" alt="#" class="ourWorks__icon">
                                 <p class="ourWorks__title">creatively designed</p>
@@ -837,7 +826,7 @@
                         <li class="slider__item">
                             <div class="slider__itemContainer">
                                 <div class="slider__itemIcon_photo">
-                                    <img class="slider__icon_photo" src="img/slider/ico2.webp" alt="#">
+                                    <img class="slider__icon_photo lazyload" data-src="img/slider/ico2.webp" alt="#">
                                 </div>
                                 <div class="slider__itemBody">
                                     <div class="slider__textSection">
@@ -916,7 +905,7 @@
                 <div class="happyClients__flexContainer">
 
                     <div class="happyClients__clientCard">
-                        <img class="happyClients__img" src="img/happy_clients/ava1.webp" alt="#">
+                        <img class="happyClients__img lazyload" data-src="img/happy_clients/ava1.webp" alt="#">
                         <div class="happyClients__textWrapper">
                             <p class="happyClients__name">Matthew Dix</p>
                             <p class="happyClients__profession">Graphic Design</p>
@@ -927,7 +916,7 @@
                     </div>
 
                     <div class="happyClients__clientCard">
-                        <img class="happyClients__img" src="img/happy_clients/ava2.webp" alt="#">
+                        <img class="happyClients__img lazyload" data-src="img/happy_clients/ava2.webp" alt="#">
                         <div class="happyClients__textWrapper">
                             <p class="happyClients__name">Jaelynn Castillo</p>
                             <p class="happyClients__profession">Graphic Design</p>
@@ -939,7 +928,7 @@
                     </div>
 
                     <div class="happyClients__clientCard">
-                        <img class="happyClients__img" src="img/happy_clients/ava3.webp" alt="#">
+                        <img class="happyClients__img lazyload" data-src="img/happy_clients/ava3.webp" alt="#">
                         <div class="happyClients__textWrapper">
                             <p class="happyClients__name">Nick Karvounis</p>
                             <p class="happyClients__profession">Graphic Design</p>
@@ -950,7 +939,7 @@
                     </div>
 
                     <div class="happyClients__clientCard">
-                        <img class="happyClients__img" src="img/happy_clients/ava4.webp" alt="#">
+                        <img class="happyClients__img lazyload" data-src="img/happy_clients/ava4.webp" alt="#">
                         <div class="happyClients__textWrapper">
                             <p class="happyClients__name">Mike Petrucci</p>
                             <p class="happyClients__profession">Graphic Design</p>
@@ -981,8 +970,7 @@
                 <div class="mogoBlog__item">
                     <div class="mogoBlog__imgContainer">
                         <a target="_blank" href="https://www.tumblr.com/">
-                            <img class="mogoBlog__img lazyload" src="img/blog/pic1-m.webp" alt="#"
-                                data-src="img/blog/pic1.webp">
+                            <img class="mogoBlog__img lazyload" alt="#" data-src="img/blog/pic1.webp">
                         </a>
                         <div class="mogoBlog__itemDate">
                             <p class="mogoBlog__day">15</p>
@@ -1008,8 +996,7 @@
                 <div class="mogoBlog__item">
                     <div class="mogoBlog__imgContainer">
                         <a target="_blank" href="https://www.tumblr.com/">
-                            <img class="mogoBlog__img  lazyload" src="img/blog/pic2-m.webp" alt="#"
-                                data-src="img/blog/pic2.webp">
+                            <img class="mogoBlog__img  lazyload" alt="#" data-src="img/blog/pic2.webp">
                         </a>
                         <div class="mogoBlog__itemDate">
                             <p class="mogoBlog__day">14</p>
@@ -1036,8 +1023,7 @@
                 <div class="mogoBlog__item">
                     <div class="mogoBlog__imgContainer">
                         <a target="_blank" href="https://www.tumblr.com/">
-                            <img class="mogoBlog__img lazyload" src="img/blog/pic3-m.webp" alt="#"
-                                data-src="img/blog/pic3.webp">
+                            <img class="mogoBlog__img lazyload" alt="#" data-src="img/blog/pic3.webp">
                         </a>
                         <div class="mogoBlog__itemDate">
                             <p class="mogoBlog__day">12</p>
@@ -1138,7 +1124,7 @@
                             <div class="footer__blogsItem">
                                 <div class="footer__blogsImgblock">
                                     <a class="footer__blogsLink" href="https://www.tumblr.com/" target="_blank">
-                                        <img class="footer__blogsImg" src="img/footer/blogs/pic1.webp" alt="#">
+                                        <img class="footer__blogsImg lazyload" data-src="img/footer/blogs/pic1.webp" alt="#">
                                     </a>
                                 </div>
                                 <div class="footer__blogsTextwrapper">
@@ -1151,7 +1137,7 @@
                             <div class="footer__blogsItem">
                                 <div class="footer__blogsImgblock">
                                     <a class="footer__blogsLink" href="https://www.tumblr.com/" target="_blank">
-                                        <img class="footer__blogsImg" src="img/footer/blogs/pic2.webp" alt="#">
+                                        <img class="footer__blogsImg lazyload" data-src="img/footer/blogs/pic2.webp" alt="#">
                                     </a>
                                 </div>
                                 <div class="footer__blogsTextwrapper">
@@ -1164,7 +1150,7 @@
                             <div class="footer__blogsItem">
                                 <div class="footer__blogsImgblock">
                                     <a class="footer__blogsLink" href="https://www.tumblr.com/" target="_blank">
-                                        <img class="footer__blogsImg" src="img/footer/blogs/pic3.webp" alt="#">
+                                        <img class="footer__blogsImg lazyload" data-src="img/footer/blogs/pic3.webp" alt="#">
                                     </a>
                                 </div>
                                 <div class="footer__blogsTextwrapper">
@@ -1182,31 +1168,31 @@
                         <div class="footer__photoContainer">
 
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic1.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic1.webp" alt="#">
                             </a>
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic2.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic2.webp" alt="#">
                             </a>
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic3.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic3.webp" alt="#">
                             </a>
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic4.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic4.webp" alt="#">
                             </a>
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic5.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic5.webp" alt="#">
                             </a>
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic6.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic6.webp" alt="#">
                             </a>
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic7.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic7.webp" alt="#">
                             </a>
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic8.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic8.webp" alt="#">
                             </a>
                             <a class="footer__instagramLink" href="https://www.instagram.com/" target="_blank">
-                                <img class="footer__instagramImg" src="img/footer/instagram/pic9.webp" alt="#">
+                                <img class="footer__instagramImg lazyload" data-src="img/footer/instagram/pic9.webp" alt="#">
                             </a>
                         </div>
                         <a class="footer__instagramMore" href="https://www.instagram.com/" target="_blank">
@@ -1229,16 +1215,8 @@
     </section>
 
 
-
-
-    <!-- Styles -->
-    <!-- <link rel="stylesheet" href="styles/style.css"> -->
-    <!-- <link rel="stylesheet" href="styles/normalize.css"> -->
-    <!-- <link rel="stylesheet" href="styles/flexslider.css"> -->
-
-
     <!-- Skripts -->
-
+    <!-- Отложенная загрузка css -->
     <script type="text/javascript">
         /* CSS #1 */
         var giftofspeed = document.createElement('link');
